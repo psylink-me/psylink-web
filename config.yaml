@@ -1,0 +1,23 @@
+baseURL: "https://psylink.uber.space/"
+languageCode: "en-us"
+title: "hut.pm"
+uglyurls: false
+resourceDir: ".resources"
+taxonomies:
+    tag: tags
+params:
+    dateFmt: "2006-01-02"
+markup:
+    goldmark:
+        extensions:
+            typographer: false
+        renderer:
+            unsafe: true
+menu:
+    main:
+      - name: "Home"
+        url: "/index.html"
+        weight: 1
+      - name: "RSS"
+        url: "/index.xml"
+        weight: 9

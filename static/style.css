@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "KoHo";
+    src: url("KoHo-Medium.ttf");
+}
+body {
+    background: black;
+    color: #ddd;
+    font-family: KoHo;
+    font-size: 14pt;
+}
+article {
+    max-width: 80ch;
+}
+article ul {
+    text-align: left;
+    display: inline-block;
+}
+a, a:visited {
+    color: #99f;
+    text-decoration: none;
+}
+h1 {
+    color: #f90;
+}
+img {
+    max-width: 100%;
+    border-radius: 12pt;
+}
+table, td, tr {
+    border-collapse: collapse;
+}
