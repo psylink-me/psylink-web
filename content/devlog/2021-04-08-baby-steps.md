@@ -1,6 +1,6 @@
 ---
 title: "Baby Steps"
-slug: psylink-baby-steps
+slug: baby-steps
 date: 2021-04-08
 ---
 

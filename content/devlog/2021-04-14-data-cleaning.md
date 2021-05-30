@@ -1,6 +1,6 @@
 ---
 title: "Data Cleaning"
-slug: psylink-data-cleaning
+slug: data-cleaning
 date: 2021-04-14
 ---
 

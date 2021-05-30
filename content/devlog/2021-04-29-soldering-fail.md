@@ -1,6 +1,6 @@
 ---
 title: "Soldering the Processing Units"
-slug: psylink-soldering-fail
+slug: soldering-fail
 date: 2021-04-29
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Amplifiers"
-slug: psylink-amplifiers
+slug: amplifiers
 date: 2021-04-19
 ---
 

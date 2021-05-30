@@ -1,6 +1,6 @@
 ---
 title: "Power Supply Module"
-slug: psylink-power
+slug: power
 date: 2021-05-09
 ---
 

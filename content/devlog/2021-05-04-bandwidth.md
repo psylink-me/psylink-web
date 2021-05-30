@@ -1,6 +1,6 @@
 ---
 title: "Higher Bandwidth, new UI"
-slug: psylink-bandwidth
+slug: bandwidth
 date: 2021-05-04
 ---
 

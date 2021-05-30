@@ -1,6 +1,6 @@
 ---
 title: "Multiplexers"
-slug: psylink-multiplexers
+slug: multiplexers
 date: 2021-04-15
 ---
 

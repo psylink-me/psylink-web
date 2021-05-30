@@ -1,6 +1,6 @@
 ---
 title: "Gyroscope + Accelerometer"
-slug: psylink-gyroscope
+slug: gyroscope
 date: 2021-05-17
 ---
 

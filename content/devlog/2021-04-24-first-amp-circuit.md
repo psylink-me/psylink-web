@@ -1,6 +1,6 @@
 ---
 title: "First Amplifier Circuit"
-slug: psylink-first-amp-circuit
+slug: first-amp-circuit
 date: 2021-04-24
 ---
 
