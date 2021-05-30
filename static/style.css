@@ -22,16 +22,16 @@ header {
     box-shadow: 0 0 3pt black;
 }
 header .content {
-    width: 80ch;
+    max-width: 80ch;
     margin: 0 auto;
 }
 header .logo {
-    width: 24pt;
-    height: 24pt;
+    width: 20pt;
+    height: 20pt;
     border-radius: 0;
 }
 header .header {
-    font-size: 32pt;
+    font-size: 28pt;
     color: #37c837;
 }
 
@@ -39,8 +39,8 @@ header .header {
 /* NAVIGATION */
 nav {
     display: inline;
-    padding-left: 20pt;
-    font-size: 120%;
+    padding-left: 10pt;
+    font-size: 115%;
 }
 nav .right {
     float: right;
@@ -61,6 +61,7 @@ nav .rss {
 /* CONTENT */
 #content-center {
     max-width: 80ch;
+    padding: 0 1ch;
     margin: 0 auto;
 }
 #content ul {
