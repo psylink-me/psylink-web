@@ -1,5 +1,5 @@
 ---
-title: "PsyLink: Soldering the Processing Units"
+title: "Soldering the Processing Units"
 slug: psylink-soldering-fail
 date: 2021-04-29
 ---

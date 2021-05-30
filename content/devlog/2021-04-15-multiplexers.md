@@ -1,5 +1,5 @@
 ---
-title: "PsyLink: Multiplexers"
+title: "Multiplexers"
 slug: psylink-multiplexers
 date: 2021-04-15
 ---

@@ -1,5 +1,5 @@
 ---
-title: "PsyLink: Data Cleaning"
+title: "Data Cleaning"
 slug: psylink-data-cleaning
 date: 2021-04-14
 ---

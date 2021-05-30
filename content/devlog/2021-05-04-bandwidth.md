@@ -1,5 +1,5 @@
 ---
-title: "PsyLink: Higher Bandwidth, new UI"
+title: "Higher Bandwidth, new UI"
 slug: psylink-bandwidth
 date: 2021-05-04
 ---

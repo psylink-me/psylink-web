@@ -1,5 +1,5 @@
 ---
-title: "PsyLink: First Amplifier Circuit"
+title: "First Amplifier Circuit"
 slug: psylink-first-amp-circuit
 date: 2021-04-24
 ---

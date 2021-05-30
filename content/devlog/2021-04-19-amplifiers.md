@@ -1,5 +1,5 @@
 ---
-title: "PsyLink: Amplifiers"
+title: "Amplifiers"
 slug: psylink-amplifiers
 date: 2021-04-19
 ---

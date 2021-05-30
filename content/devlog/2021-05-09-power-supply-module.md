@@ -1,5 +1,5 @@
 ---
-title: "PsyLink: Power Supply Module"
+title: "Power Supply Module"
 slug: psylink-power
 date: 2021-05-09
 ---
