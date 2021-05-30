@@ -19,6 +19,7 @@ header {
     background: black;
     padding: 5pt 5pt;
     margin-bottom: 20pt;
+    box-shadow: 0 0 3pt black;
 }
 header .content {
     width: 80ch;
