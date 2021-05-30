@@ -46,7 +46,7 @@ nav .right {
     float: right;
 }
 nav a, nav a:visited, nav .parts {
-    padding: 0 3pt;
+    padding: 0 6pt;
     line-height: 1.75;
     color: #99f;
     color: white;
