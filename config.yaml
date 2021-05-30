@@ -1,12 +1,15 @@
 baseURL: "https://psylink.uber.space/"
 languageCode: "en-us"
-title: "hut.pm"
-uglyurls: false
+title: "PsyLink"
+uglyurls: true
 resourceDir: ".resources"
+relativeurls: true
 taxonomies:
     tag: tags
 params:
     dateFmt: "2006-01-02"
+permalinks:
+    devlog: log_:slug
 markup:
     goldmark:
         extensions:
@@ -15,9 +18,9 @@ markup:
             unsafe: true
 menu:
     main:
-      - name: "Home"
-        url: "/index.html"
+      - name: "Blog"
+        url: "/devlog.html"
         weight: 1
-      - name: "RSS"
-        url: "/index.xml"
-        weight: 9
+      - name: "Code"
+        url: "https://codeberg.org/hut/psylink"
+        weight: 2

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
     <head>
-        <title>PsyLink</title>
+        <title>{{ .Title }}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="og:title" property="og:title" content="PsyLink">
@@ -16,21 +16,20 @@
                     <img class="logo" src="logo.png" />
                     <span class="header">PsyLink</span>
                 </a>
-                <span class="menu">
-                    <a href="https://hut.pm/psylink.html">Blog</a>
-                    <a href="https://codeberg.org/hut/psylink">Code</a>
+                <nav>
+                    {{ with .Site.Menus.main }}
+                    {{- range $i, $e := . -}}
+                    <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                    {{- end -}}
+                    {{ end }}
                     <a href="index.xml"><img src="feed-icon.png" class="rss" /></a>
-                </span>
+                </nav>
             </div>
         </header>
-        <article>
-            <div class="content">
-                <h1>Welcome to PsyLink</h1>
-                <p>
-                    This is a research project to explore various approaches to non-invasive neural interfaces.
-                </p>
-                <img src="https://hut.pm/data/psy/-hardware.jpg"></img>
+        <div id="content">
+            <div id="content-center">
+                {{ block "main" . }}{{ end }}
             </div>
-        </article>
+        </div>
     </body>
 </html>

@@ -13,6 +13,8 @@ body {
 a, a:visited {
     text-decoration: none;
 }
+/*************************/
+/* HEADER */
 header {
     background: black;
     padding: 5pt 5pt;
@@ -31,35 +33,40 @@ header .header {
     font-size: 32pt;
     color: #37c837;
 }
-header .menu {
+
+/*************************/
+/* NAVIGATION */
+nav {
+    display: inline;
     padding-left: 20pt;
     font-size: 120%;
 }
-header .menu .right {
+nav .right {
     float: right;
 }
-header .menu a {
+nav a {
     padding-left: 10pt;
     color: #99f;
     color: white;
     font-weight: bold;
 }
-header .menu .rss {
+nav .rss {
     height: 14pt;
     width: 14pt;
     border-radius: 0;
 }
-article {
-}
-article .content {
+
+/*************************/
+/* CONTENT */
+#content-center {
     max-width: 80ch;
     margin: 0 auto;
 }
-article ul {
+#content ul {
     text-align: left;
     display: inline-block;
 }
-article a, article a:visited {
+#content a, #content a:visited {
     color: #00f;
     text-decoration: none;
 }
