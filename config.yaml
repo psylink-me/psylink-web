@@ -1,15 +1,12 @@
 baseURL: "https://psylink.uber.space/"
 languageCode: "en-us"
 title: "PsyLink"
-uglyurls: true
 resourceDir: ".resources"
 relativeurls: true
 taxonomies:
     tag: tags
 params:
     dateFmt: "2006-01-02"
-permalinks:
-    devlog: log_:slug
 markup:
     goldmark:
         extensions:

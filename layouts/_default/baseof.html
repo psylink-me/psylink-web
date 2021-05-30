@@ -6,14 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="og:title" property="og:title" content="PsyLink">
         <meta name="description" content='A makeshift neural interface'>
-        <link rel="shortcut icon" type="image/png" href="logo.png">
-        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link rel="shortcut icon" type="image/png" href="{{ "logo.png" | relURL }}">
+        <link rel="stylesheet" href="{{ "style.css" | relURL }}" type="text/css" />
     </head>
     <body>
         <header>
             <div class="content">
                 <a href="index.html">
-                    <img class="logo" src="logo.png" />
+                    <img class="logo" src="{{ "logo.png" | relURL }}" />
                     <span class="header">PsyLink</span>
                 </a>
                 <nav>
@@ -22,7 +22,7 @@
                     <a href="{{ .URL | relURL }}">{{ .Name }}</a>
                     {{- end -}}
                     {{ end }}
-                    <a href="index.xml"><img src="feed-icon.png" class="rss" /></a>
+                    <a href="index.xml"><img src="{{ "feed-icon.png" | relURL }}" class="rss" /></a>
                 </nav>
             </div>
         </header>
