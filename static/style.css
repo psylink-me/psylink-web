@@ -96,3 +96,9 @@ img {
 table, td, tr {
     border-collapse: collapse;
 }
+.showcase {
+    max-width: 35ch;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10pt;
+}

@@ -12,20 +12,20 @@
     <body>
         <header>
             <div class="content">
-                <a href="{{ "/" | relURL }}">
+                <a href="{{ "/" | relURL }}{{ partial "index" }}">
                     <img class="logo" src="{{ "logo.png" | relURL }}" />
                     <span class="header">PsyLink</span>
                 </a>
                 <nav>
-                    <a href="{{ "devlog" | relURL }}{{ partial "index" }}">Blog</a>
-                    <a href="{{ "prototypes" | relURL }}{{ partial "index" }}">Prototypes</a>
+                    <a href="{{ "devlog" | relURL }}/{{ partial "index" }}">Blog</a>
+                    <a href="{{ "prototypes" | relURL }}/{{ partial "index" }}">Prototypes</a>
                     <span class="parts">
                         Components
                         <div class="dropdown-content">
-                            <a href="{{ "circuits" | relURL }}{{ partial "index" }}">Circuits</a><br />
-                            <a href="{{ "boards" | relURL }}{{ partial "index" }}">Boards</a><br />
-                            <a href="{{ "textiles" | relURL }}{{ partial "index" }}">Textiles</a><br />
-                            <a href="{{ "software" | relURL }}{{ partial "index" }}">Software</a><br />
+                            <a href="{{ "circuits" | relURL }}/{{ partial "index" }}">Circuits</a><br />
+                            <a href="{{ "boards" | relURL }}/{{ partial "index" }}">Boards</a><br />
+                            <a href="{{ "textiles" | relURL }}/{{ partial "index" }}">Textiles</a><br />
+                            <a href="{{ "software" | relURL }}/{{ partial "index" }}">Software</a><br />
                         </div>
                     </span>
                     <a href="https://codeberg.org/hut/psylink">Source</a>
