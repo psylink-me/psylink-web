@@ -1,8 +1,7 @@
 ---
+title: "Welcome to PsyLink"
 _build: {list: false}
 ---
-
-# Welcome to PsyLink
 
 This is a research project to explore various approaches to non-invasive neural interfaces.
 
