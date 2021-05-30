@@ -16,7 +16,7 @@ markup:
 menu:
     main:
       - name: "Blog"
-        url: "/devlog.html"
+        url: "/devlog"
         weight: 1
       - name: "Code"
         url: "https://codeberg.org/hut/psylink"
