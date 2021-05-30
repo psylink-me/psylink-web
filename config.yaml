@@ -5,6 +5,12 @@ resourceDir: ".resources"
 relativeurls: true
 taxonomies:
     tag: tags
+permalinks:
+    prototypes: :slug
+    circuits: :slug
+    boards: :slug
+    textiles: :slug
+    software: :slug
 params:
     dateFmt: "2006-01-02"
 markup:
