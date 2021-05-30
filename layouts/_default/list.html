@@ -13,9 +13,9 @@
             <li>
                 <div class="post-title">
                 {{ if eq $listtitle "Posts" }}
-                    {{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}">{{.Title }}</a>
+                    {{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
                 {{ else }}
-                    <a href="{{ .RelPermalink }}">{{.Title }}</a>
+                <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
                 {{ end }}
                 </div>
             </li>
