@@ -45,11 +45,28 @@ nav {
 nav .right {
     float: right;
 }
-nav a {
-    padding-left: 10pt;
+nav a, nav a:visited, nav .parts {
+    padding: 0 3pt;
+    line-height: 1.75;
     color: #99f;
     color: white;
     font-weight: bold;
+}
+nav .parts {
+    position: relative;
+    display: inline-block;
+}
+nav .parts .dropdown-content {
+    display: none;
+    position: absolute;
+    background: black;
+    box-shadow: 0 0 3pt black;
+    padding: 10pt;
+    margin: 0;
+    z-index: 1;
+}
+nav .parts:hover .dropdown-content {
+    display: block;
 }
 nav .rss {
     height: 14pt;

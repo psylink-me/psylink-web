@@ -17,11 +17,18 @@
                     <span class="header">PsyLink</span>
                 </a>
                 <nav>
-                    {{ with .Site.Menus.main }}
-                    {{- range $i, $e := . -}}
-                    <a href="{{ .URL | relURL }}">{{ .Name }}</a>
-                    {{- end -}}
-                    {{ end }}
+                    <a href="{{ "devlog" | relURL }}{{ partial "index" }}">Blog</a>
+                    <a href="{{ "prototypes" | relURL }}{{ partial "index" }}">Prototypes</a>
+                    <span class="parts">
+                        Components
+                        <div class="dropdown-content">
+                            <a href="{{ "circuits" | relURL }}{{ partial "index" }}">Circuits</a><br />
+                            <a href="{{ "boards" | relURL }}{{ partial "index" }}">Boards</a><br />
+                            <a href="{{ "textiles" | relURL }}{{ partial "index" }}">Textiles</a><br />
+                            <a href="{{ "software" | relURL }}{{ partial "index" }}">Software</a><br />
+                        </div>
+                    </span>
+                    <a href="https://codeberg.org/hut/psylink">Source</a>
                     <a href="index.xml"><img src="{{ "feed-icon.png" | relURL }}" class="rss" /></a>
                 </nav>
             </div>

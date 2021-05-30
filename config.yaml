@@ -13,11 +13,3 @@ markup:
             typographer: false
         renderer:
             unsafe: true
-menu:
-    main:
-      - name: "Blog"
-        url: "/devlog"
-        weight: 1
-      - name: "Code"
-        url: "https://codeberg.org/hut/psylink"
-        weight: 2
