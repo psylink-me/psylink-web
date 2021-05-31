@@ -17,6 +17,11 @@
                 {{ with .Params.src }}
                     <a href="{{ . }}">PCB Layout file</a> (for <a href="https://www.kicad.org/">KiCad</a>)<br />
                 {{ end }}
+                {{ with .Params.circuit }}
+                    {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+                        <b>Circuit:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
+                    {{ end }}
+                {{ end }}
                 {{ with .Params.blog }}
                     {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
                         <b>Blog Post:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
