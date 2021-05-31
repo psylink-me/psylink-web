@@ -16,11 +16,8 @@ from the Accelerometer that are built in to the Arduino Nano 33 BLE Sense.
 All put together finally allowed me to singlehandedly drive through the finish
 line of my favorite racing game F-Zero! \o/
 
-<video class="tab" style="max-width: 100%;" controls>
-    Your browser does not support the &lt;video&gt; tag, download the video
-    <a href="data/psy/video8-fzero3.webm">here</a>.
-    <source src="data/psy/video8-fzero3.webm" />
-</video>
+
+<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 4 Demo" src="https://peertube.linuxrocks.online/videos/embed/0fe35dae-f1fc-4ace-b6e1-5f54e255bbef" frameborder="0" allowfullscreen></iframe>
 
 - For training the AI, I recorded 60k samples over 2 minutes (500Hz)
 - Trained for 5 epochs, which took 1 minute without GPU acceleration
