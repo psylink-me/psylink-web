@@ -101,7 +101,7 @@ main {
     width: 80ch;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0 2ch 3em 2ch;
+    padding: 1em 2ch 3em 2ch;
     background-color: var(--main-bg);
     box-shadow: 0 0 80pt var(--main-border);
     z-index: 0;
@@ -112,8 +112,7 @@ iframe {
 main h1 {
     margin-top: 0;
     padding-top: 14pt;
-    font-size: 140%;
-    text-decoration: underline;
+    font-size: 150%;
 }
 main h2 {
     font-size: 120%;
