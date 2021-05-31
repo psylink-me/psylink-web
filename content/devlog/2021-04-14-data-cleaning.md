@@ -25,7 +25,7 @@ the other signals unstable.
 And did you know that the signals looks much cleaner when you unplug the laptop
 from the power grid? :p
 
-![screenshot](data/myo/2021-04-15_03-11-08_1920x1080.unplug.png)
+![screenshot](/img/blog/2021-04-15_arduino_signal_unplug.png)
 
 I'll finish with a video of me trying to play the frustrating one-button
 jumping game [Sienna](https://tangramgames.dk/games/sienna/) by flipping my

@@ -12,8 +12,8 @@ It raises the power consumption by 4% (3.5mW), but that's totally worth it. I
 can now get all 8 channels in 8-bit resolution at 500Hz across the aehter.
 Eventually I should aim for 10-bit at 1kHz, but I think that can wait.
 
-[![signals](data/myo/2021-05-04_19-14-22_1920x1080.crop.crop.png)](data/myo/2021-05-04_19-14-22_1920x1080.crop.png)
-[![gnuradio flowgraph](data/myo/2021-05-04_19-15-30_1920x1080.crop.thumb.png)](data/myo/2021-05-04_19-15-30_1920x1080.crop.png)
+[![signals](/img/blog/2021-05-04_signals.thumb.png)](/img/blog/2021-05-04_signals.png)
+[![gnuradio flowgraph](/img/blog/2021-05-04_gnuradio.thumb.png)](/img/blog/2021-05-04_gnuradio.png)
 
 This is the [GNURadio flowgraph](https://codeberg.org/hut/psylink/src/commit/befedfaf7abb0a54d657f6ed11c10d54b1e74845/5_ble/gnuradio/visualize_signal.grc)
 and the resulting output.  (I only have hardware for 2 electrode pairs, so
@@ -28,14 +28,14 @@ Power ratings:
 
 Surprisingly to me, the LEDs were draining a good chunk of the power, and I
 saved 16mW by removing the external power LED (see [previous
-photo](data/myo/IMG_20210428_192422.jpg.resized.png)) and by
+photo](/img/blog/2021-04-28_wireless.png)) and by
 [PWM](https://en.wikipedia.org/w/index.php?title=Pulse-width_modulation&oldid=1003507942)-dimming
 the blue LED that indicated Bluetooth connections. It gives me approximately 15
 hours run time with 2x CR2032 coin cells.
 
 Also I'm in the process of rewriting the UI:
 
-![MyocularUI screenshot](data/myo/2021-05-05_07-15-17_1920x1080_000.crop.png)
+![MyocularUI screenshot](/img/blog/2021-05-05_myocularui.png)
 
 The colorful column graph is a live visualization of the signal.  The columns
 correspond to electrode pairs, while the rows are time frames.   The top row

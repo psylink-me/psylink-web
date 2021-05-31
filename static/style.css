@@ -3,8 +3,8 @@
     src: url("KoHo-Medium.ttf");
 }
 body {
-    background: #fee;
-    color: #000;
+    background: #242924;
+    color: #fdd;
     font-family: KoHo;
     font-size: 14pt;
     padding: 0;
@@ -48,7 +48,6 @@ nav .right {
 nav a, nav a:visited, nav .parts {
     padding: 0 6pt;
     line-height: 1.75;
-    color: #99f;
     color: white;
     font-weight: bold;
 }
@@ -82,7 +81,7 @@ nav .rss {
     margin: 0 auto;
 }
 #content a, #content a:visited {
-    color: #00f;
+    color: #8af;
     text-decoration: none;
 }
 img {

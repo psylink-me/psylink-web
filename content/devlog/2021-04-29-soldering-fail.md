@@ -14,7 +14,7 @@ The plan was to split the circuit into:
 
 Here's my try to solder one of those units:
 
-[![photo](data/myo/IMG_20210430_024941.jpg.resized.png.thumb.jpg)](data/myo/IMG_20210430_024941.jpg.resized.png)
+[![photo](/img/blog/2021-04-30_freeform_solder.thumb.png)](/img/blog/2021-04-30_freeform_solder.png)
 
 This took me over an hour, during which I began questioning various life
 choices, started doubting this whole project, poured myself a Manhattan
@@ -30,11 +30,11 @@ can it be?
 
 First draft:
 
-[![photo](data/myo/myocular0.5.1_pcb.png)](https://codeberg.org/hut/psylink/src/branch/master/schematics/myocular0.5.1.kicad_pcb)
+[![photo](/img/boards/myocular0.5.1_draft.png)](https://codeberg.org/hut/psylink/src/branch/master/schematics/myocular0.5.1.kicad_pcb)
 
 Updated schematic:
 
-[![photo](data/myo/myocular0.5.1.thumb.png)](data/myo/myocular0.5.1.png)
+[![photo](/img/circuits/c5.1.thumb.png)](/c5.1)
 
 I removed the decouplying capacitor between ground and GNDS (signal ground) by
 the REF pin of the INA128 because mysteriously it made the signal worse, not
@@ -55,4 +55,4 @@ electrode pair on my dorsal wrist.  Click to enlarge and view the frequency
 domain as well.  (Just one electrode pair because that's all I can squeeze out
 of the poor bluetooth low energy bandwidth so far)
 
-[![screenshot of EMG of a finger snap](data/myo/2021-04-30_03-48-59_1920x1080.crop.crop.png)](data/myo/2021-04-30_03-48-59_1920x1080.crop.png)
+[![screenshot of EMG of a finger snap](/img/blog/2021-04-30_snap.thumb.png)](/img/blog/2021-04-30_snap.png)

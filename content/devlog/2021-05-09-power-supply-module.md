@@ -8,11 +8,11 @@ I made an updated schematic (psylink6) that shows more clearly how the modules
 are connected.  Also corrected an error with the feedback of the voltage
 follower, and changed values of some resistors/capacitors:
 
-[![Schematic image](data/myo/psylink6.thumb.png)](data/myo/psylink6.png)
+[![Schematic image](/img/circuits/c6.thumb.png)](/c6)
 
 I also constructed the power supply module:
 
-![Photo of power module #1](data/myo/IMG_20210509_214421.crop.joined.jpg)
+![Photo of power module #1](/img/blog/2021-05-09_failed_power_module.jpg)
 
 but for some reason it didn't work. All the parts seemed to have been connected
 the right way, I couldn't find a short circuit, but the output voltage was
@@ -22,7 +22,7 @@ broken opamp.
 Well, I didn't like the design and length of the circuit board anyway, so it
 didn't hurt trashing the thing and building this beauty instead:
 
-![Photo of power module #2](data/myo/psylink6_powermodule.png)
+![Photo of power module #2](/img/boards/psylink6_powermodule.jpg)
 
 I'll use female-to-female jumper wires to connect V+ and GND to the arduino,
 and 3 more wires to bootstrap the power supply of the mesh network of the

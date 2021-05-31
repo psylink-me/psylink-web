@@ -7,7 +7,7 @@ date: 2021-04-08
 The Arduino arrived.  I have no electrodes though.  But what are electrodes,
 just some pieces of metal taped to your skin, right?  Let's improvise that:
 
-![photo](data/myo/IMG_20210409_024039.jpg)
+![photo](/img/prototypes/p1.jpg)
 
 There are two pieces of aluminum foil taped to my skin, held together with blue
 medical wrap.

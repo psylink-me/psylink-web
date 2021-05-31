@@ -85,16 +85,16 @@ Some of the references I used:
 - [Patrick Mercier's lectures on Instrumentational Amplifiers](https://www.youtube.com/watch?v=Cps0C9fJXfg)
 - [BioPhysical Modeling, Characterization and Optimization of Electro-Quasistatic Human Body Communication, arXiv:1805.05200v1](https://arxiv.org/abs/1805.05200v1)
 
-The resulting circuit: [[KiCad Eeschema file](data/myo/myocular0.4.sch)]
+The resulting circuit:
 
-[![Circuit schematic](data/myo/myocular0.4.thumb.png)](data/myo/myocular0.4.png)
+[![Circuit schematic](/img/circuits/c4.png)](/c4)
 
 And the signals look like:
 
 <!-- Image processing done: 1px gaussian blur, curves(x=188,y=33), 2x unsharp mask with default settings -->
 
-[![Signal image 1](data/myo/2021-04-24_04-24-15_1920x1080.crop.thumb.png)](data/myo/2021-04-24_04-24-15_1920x1080.crop.png)
-[![Signal image 2](data/myo/2021-04-24_04-21-20_1920x1080.crop.thumb.png)](data/myo/2021-04-24_04-21-20_1920x1080.crop.png)
+[![Signal image 1](/img/blog/2021-04-24_signal1.thumb.png)](/img/blog/2021-04-24_signal1.png)
+[![Signal image 2](/img/blog/2021-04-24_signal2.thumb.png)](/img/blog/2021-04-24_signal2.png)
 
 Yellow and green are two electrodes, right after their respective OpAmp, and purple is (yellow-green)*20.
 
@@ -102,4 +102,4 @@ This should be good enough to move forward, but I bought some [INA128](https://w
 
 In other news, I watched [Dr. Gregory House explain forearm muscles](https://www.youtube.com/watch?v=r6XeAS67PNM), so next time my electrode placement will be better than random!
 
-And since I learned [KiCad](https://en.wikipedia.org/wiki/KiCad) for creating the above schematic, I thought I'd add schematics for the previous models as well, see Source Code section.
+And since I learned [KiCad](https://en.wikipedia.org/wiki/KiCad) for creating the above schematic, I thought I'd add schematics for the previous models as well, see [circuits](/circuits).

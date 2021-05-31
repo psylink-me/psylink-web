@@ -8,7 +8,7 @@ I fixed up the PsyLink UI.  It was so broken after the rewrite to Bluetooth Low
 Energy, I'm once again stunned that I got ANY useful results before. But now it
 receives the transmissions from the Arduino properly.
 
-![PsyLink UI screenshot](data/psy/2021-05-18_07-00-45_1920x1080.crop.png)
+[![PsyLink UI screenshot](/img/blog/2021-05-18_s3.png)](/s3)
 
 I also added 6 more signal channels: The x/y/z-axes from the Gyroscope and
 from the Accelerometer that are built in to the Arduino Nano 33 BLE Sense.
