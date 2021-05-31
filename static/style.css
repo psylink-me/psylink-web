@@ -1,7 +1,7 @@
 :root {
     --logo-fg: #37c837;
     --body-bg: url("bg.png"), black;
-    --main-border: #386638;
+    --main-border: #030;
     --main-bg: #131418;
     --main-fg: #ccc;
     --main-link: #8af;
@@ -20,6 +20,7 @@ html {
 }
 body {
     background: var(--body-bg);
+    background-attachment: fixed;
     color: var(--main-fg);
     font-family: KoHo;
     font-size: 14pt;
@@ -103,7 +104,8 @@ main {
     margin: 0 auto;
     padding: 1em 2ch 3em 2ch;
     background-color: var(--main-bg);
-    box-shadow: 0 0 80pt var(--main-border);
+    box-shadow: 0 0 100pt var(--main-border),
+                0 0 20pt var(--main-border);
     z-index: 0;
 }
 main .banner {
