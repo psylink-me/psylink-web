@@ -42,7 +42,7 @@ header {
     z-index: 2;
 }
 header .content {
-    max-width: 80ch;
+    max-width: 75ch;
     margin: 0 auto;
 }
 header .logo {
@@ -105,6 +105,10 @@ main {
     background-color: var(--main-bg);
     box-shadow: 0 0 80pt var(--main-border);
     z-index: 0;
+}
+main .banner {
+    width: 100%;
+    border-radius: 0;
 }
 iframe {
     max-width: 100%;

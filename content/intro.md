@@ -6,7 +6,7 @@ _build: {list: false, render: false}
 This is a research project to explore various approaches to non-invasive neural interfaces.
 
 
-[<img src="https://hut.pm/data/psy/-hardware.jpg" style="width: 100%" />](/p4)
+[<img src="https://hut.pm/data/psy/-hardware.jpg" class="banner" />](/p4)
 
 Everything here is [free software & open
 hardware](https://codeberg.org/hut/psylink), licensed under the
