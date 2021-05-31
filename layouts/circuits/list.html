@@ -18,13 +18,13 @@
                         <img src="{{ printf "img/%s" .Params.image | relURL }}" /><br />
                     {{ end }}
                 </a>
+                {{ with .Params.src }}
+                    <a href="{{ . }}">Eeschema file</a> (for <a href="https://www.kicad.org/">KiCad</a>)<br />
+                {{ end }}
                 {{ with .Params.blog }}
                     {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
                         Blog Post: <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
                     {{ end }}
-                {{ end }}
-                {{ with .Params.src }}
-                    <a href="{{ . }}">Eeschema file</a> (for <a href="https://www.kicad.org/">KiCad</a>)<br />
                 {{ end }}
                 Date: {{ .Date.Format "2006-01-02" }}
             </div>
