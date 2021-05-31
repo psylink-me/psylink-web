@@ -1,14 +1,33 @@
+:root {
+    --logo-fg: #37c837;
+    --body-bg: url("bg.png");
+    --main-border: #386638;
+    --main-bg: #131418;
+    --main-fg: #ccc;
+    --main-link: #8af;
+    --header-bg: #000;
+    --header-fg: #fff;
+    --header-border: #777;
+    --header-link: #fff;
+}
 @font-face {
     font-family: "KoHo";
     src: url("KoHo-Medium.ttf");
 }
+html {
+    min-height: 100vh;
+    margin: 0;
+}
 body {
-    background: #242924;
-    color: #fdd;
+    background: var(--body-bg);
+    color: var(--main-fg);
     font-family: KoHo;
     font-size: 14pt;
     padding: 0;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
 }
 a, a:visited {
     text-decoration: none;
@@ -16,10 +35,11 @@ a, a:visited {
 /*************************/
 /* HEADER */
 header {
-    background: black;
+    background: var(--header-bg);
     padding: 5pt 5pt;
-    margin-bottom: 20pt;
-    box-shadow: 0 0 3pt black;
+    box-shadow: 0 0 2pt var(--header-border);
+    flex: 0 1 auto;
+    z-index: 2;
 }
 header .content {
     max-width: 80ch;
@@ -32,7 +52,7 @@ header .logo {
 }
 header .header {
     font-size: 28pt;
-    color: #37c837;
+    color: var(--logo-fg);
 }
 
 /*************************/
@@ -48,7 +68,7 @@ nav .right {
 nav a, nav a:visited, nav .parts {
     padding: 0 6pt;
     line-height: 1.75;
-    color: white;
+    color: var(--header-link);
     font-weight: bold;
 }
 nav .parts {
@@ -58,11 +78,11 @@ nav .parts {
 nav .parts .dropdown-content {
     display: none;
     position: absolute;
-    background: black;
-    box-shadow: 0 0 3pt black;
+    background: var(--header-bg);
+    box-shadow: 0 0 2pt var(--header-border);
     padding: 10pt;
     margin: 0;
-    z-index: 1;
+    z-index: 2;
 }
 nav .parts:hover .dropdown-content {
     display: block;
@@ -75,13 +95,32 @@ nav .rss {
 
 /*************************/
 /* CONTENT */
-#content-center {
-    max-width: 80ch;
-    padding: 0 1ch 3em 1ch;
+main {
+    flex: 1 1 auto;
+    max-width: 100%;
+    width: 80ch;
+    box-sizing: border-box;
     margin: 0 auto;
+    padding: 0 2ch 3em 2ch;
+    background-color: var(--main-bg);
+    box-shadow: 0 0 80pt var(--main-border);
+    z-index: 0;
 }
-#content a, #content a:visited {
-    color: #8af;
+iframe {
+    max-width: 100%;
+}
+main h1 {
+    margin-top: 0;
+    padding-top: 14pt;
+    font-size: 140%;
+    text-decoration: underline;
+}
+main h2 {
+    font-size: 120%;
+    text-decoration: underline;
+}
+main a, main a:visited {
+    color: var(--main-link);
     text-decoration: none;
 }
 img {

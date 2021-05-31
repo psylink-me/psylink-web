@@ -1,31 +1,29 @@
 {{ define "main" }}
     {{ $blogchain := (and (in .Site.Params.blogchains .Section) .Section (.Site.GetPage "section" .Section)) }}
-    <main>
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
-        {{ if or .Date .Params.Author .Params.Tags $blogchain }}
-            <hr />
-            <ul>
-                {{ if .Date }}
-                    <li>Date: {{ .Date.Format .Site.Params.dateFmt }}</li>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ if or .Date .Params.Author .Params.Tags $blogchain }}
+        <hr />
+        <ul>
+            {{ if .Date }}
+                <li>Date: {{ .Date.Format .Site.Params.dateFmt }}</li>
+            {{ end }}
+            {{ if .Params.Author }}
+                <li>Author: {{ default .Site.Params.author .Params.author }}</li>
+            {{ end }}
+            {{ if .Params.Tags }}
+                <li>Tags:
+                {{- range $i, $element := .Params.tags -}}
+                    {{- if $i -}}, {{ end }}
+                    <a href="tag_{{ . | urlize }}.html">{{ . }}</a>
+                {{- end -}}
+            {{ end }}
+            {{ with $blogchain }}
+                <li>View the entire <a href="{{ $blogchain.RelPermalink }}">blogchain about {{ .Section }}</a></li>
+                {{ with .Params.sourcecode }}
+                    <li>Source code: <a href="{{ . }}">{{ . }}</a></li>
                 {{ end }}
-                {{ if .Params.Author }}
-                    <li>Author: {{ default .Site.Params.author .Params.author }}</li>
-                {{ end }}
-                {{ if .Params.Tags }}
-                    <li>Tags:
-                    {{- range $i, $element := .Params.tags -}}
-                        {{- if $i -}}, {{ end }}
-                        <a href="tag_{{ . | urlize }}.html">{{ . }}</a>
-                    {{- end -}}
-                {{ end }}
-                {{ with $blogchain }}
-                    <li>View the entire <a href="{{ $blogchain.RelPermalink }}">blogchain about {{ .Section }}</a></li>
-                    {{ with .Params.sourcecode }}
-                        <li>Source code: <a href="{{ . }}">{{ . }}</a></li>
-                    {{ end }}
-                {{ end }}
-            </ul>
-        {{ end }}
-    </main>
+            {{ end }}
+        </ul>
+    {{ end }}
 {{ end }}

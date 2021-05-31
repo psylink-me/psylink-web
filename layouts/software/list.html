@@ -1,32 +1,30 @@
 {{ define "main" }}
-    <main>
-        {{ $listtitle := .Title }}
-        {{ if or .Title .Content }}
-        <div>
-            {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-            {{ with .Content }}<div>{{ . }}</div>{{ end }}
-        </div>
-        {{ end }}
+    {{ $listtitle := .Title }}
+    {{ if or .Title .Content }}
+    <div>
+        {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .Content }}<div>{{ . }}</div>{{ end }}
+    </div>
+    {{ end }}
 
-        {{ range .Pages }}
-            <div class="showcase">
-                <a href="{{ .RelPermalink }}{{ partial "index" }}">
-                    <h2>{{.Title}}</h2>
-                    <img src="{{ printf "img/%s" .Params.image | relURL }}" /><br />
-                </a>
-                {{ with .Params.src }}
-                    <a href="{{ . }}">PCB Layout file</a> (for <a href="https://www.kicad.org/">KiCad</a>)<br />
+    {{ range .Pages }}
+        <div class="showcase">
+            <a href="{{ .RelPermalink }}{{ partial "index" }}">
+                <h2>{{.Title}}</h2>
+                <img src="{{ printf "img/%s" .Params.image | relURL }}" /><br />
+            </a>
+            {{ with .Params.src }}
+                <a href="{{ . }}">PCB Layout file</a> (for <a href="https://www.kicad.org/">KiCad</a>)<br />
+            {{ end }}
+            {{ with .Params.blog }}
+                {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+                    <b>Blog Post:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
                 {{ end }}
-                {{ with .Params.blog }}
-                    {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-                        <b>Blog Post:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
-                    {{ end }}
-                {{ end }}
-                {{ if .Params.untested }}
-                    <b>WARNING:</b> This board should work, but it has NOT been manufactured and tested.<br />
-                {{ end }}
-                <b>Date:</b> {{ .Date.Format "2006-01-02" }}
-            </div>
-        {{ end }}
-    </main>
+            {{ end }}
+            {{ if .Params.untested }}
+                <b>WARNING:</b> This board should work, but it has NOT been manufactured and tested.<br />
+            {{ end }}
+            <b>Date:</b> {{ .Date.Format "2006-01-02" }}
+        </div>
+    {{ end }}
 {{ end }}

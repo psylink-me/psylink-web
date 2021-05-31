@@ -1,36 +1,34 @@
 {{ define "main" }}
-    <main>
-        {{ $listtitle := .Title }}
-        {{ if or .Title .Content }}
-        <div>
-            {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-            {{ with .Content }}<div>{{ . }}</div>{{ end }}
-        </div>
-        {{ end }}
+    {{ $listtitle := .Title }}
+    {{ if or .Title .Content }}
+    <div>
+        {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .Content }}<div>{{ . }}</div>{{ end }}
+    </div>
+    {{ end }}
 
-        {{ range .Pages }}
-            <div class="showcase">
-                <a href="{{ .RelPermalink }}{{ partial "index" }}">
-                    <h2>{{.Title}}</h2>
-                    <img src="{{ printf "img/%s" .Params.image | relURL }}" /><br />
-                </a>
-                {{ with .Params.components }}
-                    Components:
-                    <ul style="margin: 0;">
-                        {{ range . }}
-                            {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-                                <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
-                            {{ end }}
+    {{ range .Pages }}
+        <div class="showcase">
+            <a href="{{ .RelPermalink }}{{ partial "index" }}">
+                <h2>{{.Title}}</h2>
+                <img src="{{ printf "img/%s" .Params.image | relURL }}" /><br />
+            </a>
+            {{ with .Params.components }}
+                Components:
+                <ul style="margin: 0;">
+                    {{ range . }}
+                        {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+                            <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
                         {{ end }}
-                    </ul>
-                {{ end }}
-                {{ with .Params.blog }}
-                    {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-                        Blog Post: <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
                     {{ end }}
+                </ul>
+            {{ end }}
+            {{ with .Params.blog }}
+                {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+                    Blog Post: <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
                 {{ end }}
-                Date: {{ .Date.Format "2006-01-02" }}
-            </div>
-        {{ end }}
-    </main>
+            {{ end }}
+            Date: {{ .Date.Format "2006-01-02" }}
+        </div>
+    {{ end }}
 {{ end }}
