@@ -1,0 +1,18 @@
+<h1>{{ .Title }}</h1>
+<img src="{{ printf "img/%s" .Params.image | relURL }}" />
+<br /><br />
+{{ .Content }}
+<hr />
+<ul>
+    {{ with .Params.blog }}
+        {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+            <li>Related blog post: <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
+        {{ end }}
+    {{ end }}
+    {{ if .Params.src }}
+        <li><a href="{{ .Params.src }}">Source</a></li>
+    {{ end }}
+    {{ if .Date }}
+        <li>Date: {{ .Date.Format .Site.Params.dateFmt }}</li>
+    {{ end }}
+</ul>

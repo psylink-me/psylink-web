@@ -81,10 +81,6 @@ nav .rss {
     padding: 0 1ch;
     margin: 0 auto;
 }
-#content ul {
-    text-align: left;
-    display: inline-block;
-}
 #content a, #content a:visited {
     color: #00f;
     text-decoration: none;
