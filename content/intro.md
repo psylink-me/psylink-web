@@ -7,4 +7,4 @@ This is a research project to explore various approaches to non-invasive neural 
 
 The website is currently under construction but should be fully functional shortly.
 
-![photo](https://hut.pm/data/psy/-hardware.jpg)
+[![photo](https://hut.pm/data/psy/-hardware.jpg)](/p4)
