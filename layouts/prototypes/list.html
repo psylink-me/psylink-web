@@ -16,11 +16,13 @@
                 </a>
                 {{ with .Params.components }}
                     Components:
-                    {{ range $i, $e := . -}}
-                        {{- if $i }} + {{ end }}
-                        <a href="{{ . | relURL }}/{{ partial "index" }}">{{ . }}</a>
-                    {{- end }}
-                    <br />
+                    <ul style="margin: 0;">
+                        {{ range . }}
+                            {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+                                <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
                 {{ end }}
                 {{ with .Params.blog }}
                     {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
