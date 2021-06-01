@@ -3,7 +3,7 @@ title: "Welcome to PsyLink"
 _build: {list: false, render: false}
 ---
 
-This is an [open source](https://codeberg.org/hut/psylink) research project to explore various approaches to non-invasive neural interfaces.
+This is an [open source](https://codeberg.org/psylink/psylink) research project to explore various approaches to non-invasive neural interfaces.
 
 [<img src="https://hut.pm/data/psy/-hardware.jpg" class="banner" />](/p4)
 
@@ -21,13 +21,13 @@ using {{% link "p4" %}}:
 # About
 
 - Links
-    - [Source code for software, schematics, PCBs](https://codeberg.org/hut/psylink)
+    - [Source code for software, schematics, PCBs](https://codeberg.org/psylink/psylink)
     - [Source code for this website](https://codeberg.org/psylink/www-psylink)
     - [Videos @ PsyLink PeerTube channel](https://peertube.linuxrocks.online/video-channels/psylink/videos)
-    - [Issue tracker](https://codeberg.org/hut/psylink/issues) (feel free to ask any questions there)
+    - [Issue tracker](https://codeberg.org/psylink/psylink/issues) (feel free to ask any questions there)
 - License
     - Music in videos: See the license of the respective owner
     - Pictures, videos, prose in blog posts: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-    - Code, schematics, designs, and everything else: [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html), see [README](https://codeberg.org/hut/psylink#license)
+    - Code, schematics, designs, and everything else: [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html), see [README](https://codeberg.org/psylink/psylink#license)
 - Author
     - Roman Zimbelmann <hut໑hut.pm>

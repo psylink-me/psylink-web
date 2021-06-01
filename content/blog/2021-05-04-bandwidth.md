@@ -15,7 +15,7 @@ Eventually I should aim for 10-bit at 1kHz, but I think that can wait.
 [![signals](/img/blog/2021-05-04_signals.thumb.png)](/img/blog/2021-05-04_signals.png)
 [![gnuradio flowgraph](/img/blog/2021-05-04_gnuradio.thumb.png)](/img/blog/2021-05-04_gnuradio.png)
 
-This is the [GNURadio flowgraph](https://codeberg.org/hut/psylink/src/commit/befedfaf7abb0a54d657f6ed11c10d54b1e74845/5_ble/gnuradio/visualize_signal.grc)
+This is the [GNURadio flowgraph](https://codeberg.org/psylink/psylink/src/commit/befedfaf7abb0a54d657f6ed11c10d54b1e74845/5_ble/gnuradio/visualize_signal.grc)
 and the resulting output.  (I only have hardware for 2 electrode pairs, so
 even-numbered and odd-numbered signals are wired to the same input. Still
 waiting for the PCBs.)
@@ -45,7 +45,7 @@ between signals.
 
 You'll also be able to change settings on the fly, view the status of e.g. key
 recordings or machine learning processes, and more.  All of this is in a
-[modular library](https://codeberg.org/hut/psylink/src/commit/cc55b1eeb9466044e9c84a10a428616d988a4430/pyocular/)
+[modular library](https://codeberg.org/psylink/psylink/src/commit/cc55b1eeb9466044e9c84a10a428616d988a4430/pyocular/)
 that will also be usable from e.g. GNURadio.
 
 I was thinking of changing the graphical user interface toolkit from Tkinter to

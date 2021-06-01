@@ -26,7 +26,7 @@ chain of hardware elements to process and clean up the signal:
 But I thought, let's focus on the MVP. Why not simply hook the electrodes
 straight to the analog input pins of the Arduino with some alligator clamps?
 Worked fine.  I did minimal signal processing in software though, you
-can find the [source code here.](https://codeberg.org/hut/psylink/src/branch/master/experimental/1_initial_test/ReadAnalogVoltage1.ino)
+can find the [source code here.](https://codeberg.org/psylink/psylink/src/branch/master/experimental/1_initial_test/ReadAnalogVoltage1.ino)
 
 This video shows the myoelectric signal on Arduino IDE's built-in signal
 plotter:

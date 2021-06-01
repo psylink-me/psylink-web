@@ -30,7 +30,7 @@ can it be?
 
 First draft:
 
-[![photo](/img/boards/myocular0.5.1_draft.png)](https://codeberg.org/hut/psylink/src/branch/master/schematics/myocular0.5.1.kicad_pcb)
+[![photo](/img/boards/myocular0.5.1_draft.png)](https://codeberg.org/psylink/psylink/src/branch/master/schematics/myocular0.5.1.kicad_pcb)
 
 Updated schematic:
 
@@ -47,7 +47,7 @@ when the buffer is full, it updates the graph, clears the buffer and waits
 again.](https://github.com/gnuradio/gnuradio/blob/6dbdc285469dd45d3752794c5195bd29ad45a0d5/gr-qtgui/lib/time_sink_c_impl.cc#L559-L577)
 I wanted instant updates as soon as new samples are in, and as a quick&dirty
 workaround I wrote a
-[GNURadio shift block](https://codeberg.org/hut/psylink/src/branch/master/experimental/5_ble/gnuradio/block_shift.py)
+[GNURadio shift block](https://codeberg.org/psylink/psylink/src/branch/master/experimental/5_ble/gnuradio/block_shift.py)
 which keeps filling up the buffer of the plotting widgets.
 
 I'll finish with a nice picture of a finger snap, as recorded with one

@@ -5,10 +5,10 @@ date: 2021-04-14
 ---
 
 The [arduino
-code](https://codeberg.org/hut/psylink/src/branch/master/experimental/4_model3/DumbPipeFast.ino)
+code](https://codeberg.org/psylink/psylink/src/branch/master/experimental/4_model3/DumbPipeFast.ino)
 now produces samples at a consistent 1kHz.  I also [moved the serial read
 operations of the calibrator software into a separate
-thread](https://codeberg.org/hut/psylink/commit/57ca60455fa8ee658cdd774556db4a1cbf2af7e8)
+thread](https://codeberg.org/psylink/psylink/commit/57ca60455fa8ee658cdd774556db4a1cbf2af7e8)
 so that it doesn't slow down on heavy load, causing the buffer to fill up, and
 the labeling to desynchronize.  I am once again confused and surprised that I
 got ANY useful results before.

@@ -23,5 +23,5 @@ line of my favorite racing game F-Zero! \o/
 - Trained for 5 epochs, which took 1 minute without GPU acceleration
 - 4 training labels ("left", "right", "accelerate", "nothing")
 - Final training and validation loss: 0.04, accuracy: 98%
-- [6 layer neural network with 2 convolutional layers](https://codeberg.org/hut/psylink/src/commit/c06ec54995efff4af5d523d30151ce8a60cb4715/python/psylink/ai.py#L140-L160)
+- [6 layer neural network with 2 convolutional layers](https://codeberg.org/psylink/psylink/src/commit/c06ec54995efff4af5d523d30151ce8a60cb4715/python/psylink/ai.py#L140-L160)
 - Music by [Mitch Murder](https://soundcloud.com/daataa/mitch-murder-mute-city-free)

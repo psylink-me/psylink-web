@@ -17,7 +17,7 @@
                 <a href="{{ . }}">Sewing Pattern</a><br />
             {{ end }}
             {{ if not .Params.src }}
-                No sewing pattern yet. <a href="https://codeberg.org/hut/psylink/issues">Need one?</a><br />
+                No sewing pattern yet. <a href="https://codeberg.org/psylink/psylink/issues">Need one?</a><br />
             {{ end }}
             {{ with .Params.blog }}
                 {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
