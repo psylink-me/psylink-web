@@ -23,6 +23,9 @@
                     {{ end }}
                 </ul>
             {{ end }}
+            {{ with .Params.video }}
+                Video Demo: <a href="{{ . }}">here</a><br />
+            {{ end }}
             {{ with .Params.blog }}
                 {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
                     Blog Post: <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
