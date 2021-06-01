@@ -2,7 +2,7 @@
 title: Development Log
 ---
 
-{{% include "devlog/abstract.md" %}}
+{{% include "blog/abstract.md" %}}
 
 [View all posts on one page](/allposts)
 

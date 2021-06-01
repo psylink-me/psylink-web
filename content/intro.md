@@ -13,7 +13,7 @@ With [prototype 4](/p4), one can play games like the [Super Nintendo](https://en
 
 <iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 4 Demo" src="https://peertube.linuxrocks.online/videos/embed/0fe35dae-f1fc-4ace-b6e1-5f54e255bbef" frameborder="0" allowfullscreen></iframe>
 
-Check out the [PsyLink channel on PeerTube](https://peertube.linuxrocks.online/video-channels/psylink/videos) for more videos, and the [development blog](/devlog) for context.
+Check out the [PsyLink channel on PeerTube](https://peertube.linuxrocks.online/video-channels/psylink/videos) for more videos, and the [development blog](/blog) for context.
 
 # License
 

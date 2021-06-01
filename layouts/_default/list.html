@@ -10,7 +10,7 @@
         {{ range .Pages }}
         <li>
             <div class="post-title">
-            {{ if eq .Section "devlog" }}
+            {{ if eq .Section "blog" }}
                 <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Date.Format "2006-01-02" }}: {{.Title }}</a>
             {{ else }}
             <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
