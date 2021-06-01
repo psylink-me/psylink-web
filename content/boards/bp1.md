@@ -7,6 +7,9 @@ blog: power
 circuit: c6
 ---
 
+This powers {{% link "p4" %}}, where it also provides a reference voltage for
+{{% link "b1" %}}.
+
 ## Notes
 
 - There are actually two CR2032 coin cells in the battery slot
