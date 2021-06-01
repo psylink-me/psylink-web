@@ -116,9 +116,6 @@ main .banner {
     width: 100%;
     border-radius: 0;
 }
-iframe {
-    max-width: 100%;
-}
 main h1 {
     margin-top: 0;
     padding-top: 14pt;
@@ -132,7 +129,7 @@ main a, main a:visited {
     color: var(--main-link);
     text-decoration: none;
 }
-img {
+img, iframe {
     max-width: 100%;
     border-radius: 4pt;
 }
