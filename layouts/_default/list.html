@@ -1,5 +1,4 @@
 {{ define "main" }}
-    {{ $listtitle := .Title }}
     {{ if or .Title .Content }}
     <div>
         {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
@@ -11,8 +10,8 @@
         {{ range .Pages }}
         <li>
             <div class="post-title">
-            {{ if eq $listtitle "Posts" }}
-                {{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
+            {{ if eq .Section "devlog" }}
+                <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Date.Format "2006-01-02" }}: {{.Title }}</a>
             {{ else }}
             <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
             {{ end }}

@@ -18,6 +18,10 @@ html {
     min-height: 100vh;
     margin: 0;
 }
+hr {
+    border: 0px hidden black;
+    border-bottom: 1px dashed var(--header-border);
+}
 body {
     background: var(--body-bg);
     background-attachment: fixed;

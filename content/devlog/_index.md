@@ -2,4 +2,8 @@
 title: Development Log
 ---
 
-The old version of the development log is still available [here](https://hut.pm/psylink.html).
+{{% include "devlog/abstract.md" %}}
+
+[View all posts on one page](/allposts)
+
+# Table of Contents
