@@ -12,6 +12,11 @@ permalinks:
     software: :slug
 params:
     dateFmt: "2006-01-02"
+outputs:
+    home: ["HTML", "RSS"]
+    section: ["HTML"]
+    taxonomy: []
+    term: []
 markup:
     goldmark:
         extensions:
