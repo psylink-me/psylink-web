@@ -8,7 +8,7 @@ I made an updated schematic (psylink6) that shows more clearly how the modules
 are connected.  Also corrected an error with the feedback of the voltage
 follower, and changed values of some resistors/capacitors:
 
-[![Schematic image](/img/circuits/c6.thumb.png)](/c6)
+[![Schematic image](/img/circuits/c6.png)](/c6)
 
 I also constructed the power supply module:
 

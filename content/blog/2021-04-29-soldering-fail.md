@@ -34,7 +34,7 @@ First draft:
 
 Updated schematic:
 
-[![photo](/img/circuits/c5.1.thumb.png)](/c5.1)
+[![photo](/img/circuits/c5.1.png)](/c5.1)
 
 I removed the decouplying capacitor between ground and GNDS (signal ground) by
 the REF pin of the INA128 because mysteriously it made the signal worse, not
