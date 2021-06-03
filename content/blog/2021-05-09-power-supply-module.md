@@ -4,7 +4,7 @@ slug: power
 date: 2021-05-09
 ---
 
-I made an updated schematic (psylink6) that shows more clearly how the modules
+I made an updated schematic (circuit 6) that shows more clearly how the modules
 are connected.  Also corrected an error with the feedback of the voltage
 follower, and changed values of some resistors/capacitors:
 
