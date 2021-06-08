@@ -31,4 +31,4 @@ can find the [source code here.](https://codeberg.org/psylink/psylink/src/branch
 This video shows the myoelectric signal on Arduino IDE's built-in signal
 plotter:
 
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 1 Demo" src="https://peertube.linuxrocks.online/videos/embed/24bec96b-2945-419b-96fb-0bc91185d99b" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 1 Demo (remastered)" src="https://peertube.linuxrocks.online/videos/embed/a32a87cd-7a40-4cc2-8984-b44be52a8e2c" frameborder="0" allowfullscreen></iframe>
