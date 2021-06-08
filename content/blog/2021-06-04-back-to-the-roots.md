@@ -15,6 +15,10 @@ assemble, and the device is clunky and fragile.
 
 Let's go back to the roots and build something more simple.  Plenty of reasons:
 
+- Having 8 small, distributed signal processing PCBs sounds nice at first, but
+  it creates more points of failure.  With {{% link "p4" %}}, I had multiple
+  instances where a connecting wire broke off, so this time I'd rather have
+  everything on one PCB.
 - What happened to the idea of processing the signal as little as possible and
   leaving the job to the neural network?  {{% link "c6" %}} amplifies certain
   information but hides other, like the DC voltage offset between electrodes.
