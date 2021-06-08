@@ -142,3 +142,13 @@ table, td, tr {
     vertical-align: top;
     padding: 0 10pt;
 }
+.showcase > ul {
+    list-style-type: none;
+    padding: 0;
+}
+.showcase ul {
+    margin: 0;
+}
+.showcase ul li {
+    padding: 0;
+}

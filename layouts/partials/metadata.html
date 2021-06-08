@@ -1,60 +1,60 @@
 {{ $params := ($.Site.GetPage .Section).Params }}
 {{ if .Params.untested }}
-    <b>WARNING: NOT FULLY TESTED</b><br />
+<li><b>WARNING: NOT FULLY TESTED</b></li>
 {{ end }}
 {{ if .Params.broken }}
-    <b>WARNING: This {{ default "item" $params.child_label }} contains a bug and will not funciton.</b><br />
+<li><b>WARNING: This {{ default "item" $params.child_label }} contains a bug and will not funciton.</b></li>
 {{ end }}
 {{ with .Params.src }}
-<a href="{{ . }}">{{ default "Source" $params.source_label }}</a> {{ $params.source_extra | safeHTML }}<br />
+<li><a href="{{ . }}">{{ default "Source" $params.source_label }}</a> {{ $params.source_extra | safeHTML }}</li>
 {{ end }}
 {{ if (and $params.has_sewing_pattern (not .Params.src)) }}
-    No sewing pattern yet. <a href="https://codeberg.org/psylink/psylink/issues">Need one?</a><br />
+<li>No sewing pattern yet. <a href="https://codeberg.org/psylink/psylink/issues">Need one?</a></li>
 {{ end }}
 {{ with .Params.prototypes }}
-    <b>Used in prototype:</b>
-    <ul style="margin: 0;">
-        {{ range . }}
-            {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-                <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
-            {{ end }}
+<li><b>Used in prototype:</b></li>
+<ul>
+    {{ range . }}
+        {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+            <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
         {{ end }}
-    </ul>
+    {{ end }}
+</ul>
 {{ end }}
 {{ with .Params.circuit }}
     {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-        <b>Circuit:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
+    <li><b>Circuit:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
     {{ end }}
 {{ end }}
 {{ with .Params.boards }}
-    <b>Compatible circuit boards:</b>
-    <ul style="margin: 0;">
-        {{ range . }}
-            {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-                <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
-            {{ end }}
+<li>Compatible circuit boards:</li>
+<ul>
+    {{ range . }}
+        {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+            <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
         {{ end }}
-    </ul>
+    {{ end }}
+</ul>
 {{ end }}
 {{ with .Params.components }}
-    Components:
-    <ul style="margin: 0;">
-        {{ range . }}
-            {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-                <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
-            {{ end }}
+<li>Components:</li>
+<ul>
+    {{ range . }}
+        {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+            <li><a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
         {{ end }}
-    </ul>
+    {{ end }}
+</ul>
 {{ end }}
 {{ with .Params.video }}
-    <b>Video Demo:</b> <a href="{{ . }}">here</a><br />
+<li><b>Video Demo:</b> <a href="{{ . }}">here</a></li>
 {{ end }}
 {{ with .Params.blog }}
     {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-        <b>Blog Post:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a><br />
+    <li><b>Blog Post:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
     {{ end }}
 {{ end }}
 {{ with $params.extra_line }}
-    {{ . }}<br />
+<li>{{ . }}</li>
 {{ end }}
-<b>Date:</b> {{ .Date.Format "2006-01-02" }}
+<li><b>Date:</b> {{ .Date.Format "2006-01-02" }}</li>
