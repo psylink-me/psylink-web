@@ -22,7 +22,13 @@
         </ul>
     {{ else }}
         {{ range .Pages }}
-            {{ partial "component_list" . }}
+            <div class="showcase">
+                <a href="{{ .RelPermalink }}{{ partial "index" }}">
+                    <h2>{{.Title}}</h2>
+                    <img src="{{ printf "img/%s" .Params.image | relURL }}" /><br />
+                </a>
+                {{ partial "metadata" . }}
+            </div>
         {{ end }}
     {{ end }}
 {{ end }}

@@ -1,3 +1,8 @@
 {{ define "main" }}
-    {{ partial "component_single" . }}
+    <h1>{{ .Title }}</h1>
+    <img src="{{ printf "img/%s" .Params.image | relURL }}" />
+    <br /><br />
+    {{ .Content }}
+    <hr />
+    {{ partial "metadata" . }}
 {{ end }}
