@@ -1,0 +1,36 @@
+{{ define "main" }}
+    {{ $blogchain := (and (in .Site.Params.blogchains .Section) .Section (.Site.GetPage "section" .Section)) }}
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ if or .Date .Params.Author .Params.Tags .PrevInSection .NextInSection }}
+        <hr />
+        <ul>
+            {{ with .NextInSection }}
+                <li>Next: <a href="{{.RelPermalink}}{{ partial "index" }}">{{.Title}}</a></li>
+            {{ end }}
+            {{ with .PrevInSection }}
+                <li>Previous: <a href="{{.RelPermalink}}{{ partial "index" }}">{{.Title}}</a></li>
+            {{ end }}
+                <li>View <a href="{{ (site.GetPage "blog/all").RelPermalink }}{{ partial "index" }}">all posts on a single page</a></li>
+            {{ if .Date }}
+                <li>Date: {{ .Date.Format .Site.Params.dateFmt }}</li>
+            {{ end }}
+            {{ if .Params.Author }}
+                <li>Author: {{ default .Site.Params.author .Params.author }}</li>
+            {{ end }}
+            {{ if .Params.Tags }}
+                <li>Tags:
+                {{- range $i, $element := .Params.tags -}}
+                    {{- if $i -}}, {{ end }}
+                    <a href="tag_{{ . | urlize }}.html">{{ . }}</a>
+                {{- end -}}
+            {{ end }}
+            {{ with $blogchain }}
+                <li>View the entire <a href="{{ $blogchain.RelPermalink }}">blogchain about {{ .Section }}</a></li>
+                {{ with .Params.sourcecode }}
+                    <li>Source code: <a href="{{ . }}">{{ . }}</a></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+    {{ end }}
+{{ end }}

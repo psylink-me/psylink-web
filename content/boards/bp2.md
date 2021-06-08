@@ -5,5 +5,6 @@ image: boards/bp2.png
 date: 2021-06-04
 blog: roots
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/circuit8.kicad_pcb
+untested: true
 circuit: c8
 ---
