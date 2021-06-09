@@ -5,6 +5,7 @@ image: boards/bp1.jpg
 date: 2021-05-09
 blog: power
 circuit: c6
+tested: true
 ---
 
 ## Purpose
