@@ -32,7 +32,7 @@
     {{ end }}
 {{ end }}
 {{ with .Params.boards }}
-<li>Compatible circuit boards:</li>
+<li><b>Compatible circuit boards:</b></li>
 <ul>
     {{ range . }}
         {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
@@ -42,7 +42,7 @@
 </ul>
 {{ end }}
 {{ with .Params.components }}
-<li>Components:</li>
+<li><b>Components:</b></li>
 <ul>
     {{ range . }}
         {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
