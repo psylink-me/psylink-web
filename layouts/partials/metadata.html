@@ -11,7 +11,7 @@
     {{ end }}
 {{ end }}
 {{ with .Params.src }}
-<li><a href="{{ . }}">{{ default "Source" $params.source_label }}</a> {{ $params.source_extra | safeHTML }}</li>
+<li><b>Source:</b> <a href="{{ . }}">{{ default "Source" $params.source_label }}</a> {{ $params.source_extra | safeHTML }}</li>
 {{ end }}
 {{ if (and $params.has_sewing_pattern (not .Params.src)) }}
 <li>No sewing pattern yet. <a href="https://codeberg.org/psylink/psylink/issues">Need one?</a></li>
