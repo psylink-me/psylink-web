@@ -152,3 +152,6 @@ table, td, tr {
 .showcase ul li {
     padding: 0;
 }
+.warning {
+    color: #f99;
+}

@@ -1,9 +1,9 @@
 {{ $params := ($.Site.GetPage .Section).Params }}
 {{ if .Params.untested }}
-<li><b>WARNING: NOT FULLY TESTED</b></li>
+<li><b class="warning">WARNING: NOT FULLY TESTED</b></li>
 {{ end }}
 {{ if .Params.broken }}
-<li><b>WARNING: This {{ default "item" $params.child_label }} contains a bug and will not funciton.</b></li>
+<li><b class="warning">WARNING: This {{ default "item" $params.child_label }} contains a bug and will not funciton.</b></li>
 {{ end }}
 {{ with .Params.blog }}
     {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
