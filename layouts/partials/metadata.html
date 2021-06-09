@@ -5,6 +5,11 @@
 {{ if .Params.broken }}
 <li><b>WARNING: This {{ default "item" $params.child_label }} contains a bug and will not funciton.</b></li>
 {{ end }}
+{{ with .Params.blog }}
+    {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
+    <li><b>See blog post </b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
+    {{ end }}
+{{ end }}
 {{ with .Params.src }}
 <li><a href="{{ . }}">{{ default "Source" $params.source_label }}</a> {{ $params.source_extra | safeHTML }}</li>
 {{ end }}
@@ -48,11 +53,6 @@
 {{ end }}
 {{ with .Params.video }}
 <li><b>Video Demo:</b> <a href="{{ . }}">here</a></li>
-{{ end }}
-{{ with .Params.blog }}
-    {{ range first 1 (where $.Site.RegularPages "Slug" "eq" .) }}
-    <li><b>Blog Post:</b> <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title }}</a></li>
-    {{ end }}
 {{ end }}
 {{ with $params.extra_line }}
 <li>{{ . }}</li>
