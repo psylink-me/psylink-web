@@ -22,7 +22,7 @@ broken opamp.
 Well, I didn't like the design and length of the circuit board anyway, so it
 didn't hurt trashing the thing and building this beauty instead:
 
-![Photo of power module #2](/img/boards/psylink6_powermodule.jpg)
+![Photo of power module #2](/img/boards/bp1.jpg)
 
 I'll use female-to-female jumper wires to connect V+ and GND to the arduino,
 and 3 more wires to bootstrap the power supply of the mesh network of the

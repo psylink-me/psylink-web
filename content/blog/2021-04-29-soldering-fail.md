@@ -30,7 +30,7 @@ can it be?
 
 First draft:
 
-[![photo](/img/boards/myocular0.5.1_draft.png)](https://codeberg.org/psylink/psylink/src/branch/master/schematics/circuit5.1.kicad_pcb)
+[![photo](/img/blog/2021-04-30_myocular0.5.1_draft.png)](https://codeberg.org/psylink/psylink/src/branch/master/schematics/circuit5.1.kicad_pcb)
 
 Updated schematic:
 

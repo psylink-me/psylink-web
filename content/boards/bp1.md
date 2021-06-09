@@ -1,7 +1,7 @@
 ---
 title: Power Module 1
 slug: bp1
-image: boards/psylink6_powermodule.jpg
+image: boards/bp1.jpg
 date: 2021-05-09
 blog: power
 circuit: c6
