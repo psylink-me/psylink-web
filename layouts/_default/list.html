@@ -25,7 +25,9 @@
             <div class="showcase">
                 <a href="{{ .RelPermalink }}{{ partial "index" }}">
                     <h2>{{.Title}}</h2>
-                    <img src="{{ printf "img/%s" .Params.image | relURL }}" />
+                    {{ with .Params.image }}
+                        <img src="{{ printf "img/%s" . | relURL }}" />
+                    {{ end }}
                 </a>
                 <ul>
                 {{ partial "metadata" . }}
