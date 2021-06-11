@@ -6,6 +6,7 @@ date: 2021-06-04
 blog: roots
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/circuit8.kicad_pcb
 tested: true
+broken: true
 circuit: c8
 ---
 
