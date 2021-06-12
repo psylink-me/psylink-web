@@ -62,25 +62,25 @@ header .header {
 
 /*************************/
 /* NAVIGATION */
-nav {
+header nav {
     display: inline;
     padding-left: 10pt;
     font-size: 115%;
 }
-nav .right {
+header nav .right {
     float: right;
 }
-nav a, nav a:visited, nav .parts {
+header nav a, header nav a:visited, header nav .parts {
     padding: 0 6pt;
     line-height: 1.75;
     color: var(--header-link);
     font-weight: bold;
 }
-nav .parts {
+header nav .parts {
     position: relative;
     display: inline-block;
 }
-nav .parts .dropdown-content {
+header nav .parts .dropdown-content {
     display: none;
     position: absolute;
     background: var(--header-bg);
@@ -89,10 +89,10 @@ nav .parts .dropdown-content {
     margin: 0;
     z-index: 2;
 }
-nav .parts:hover .dropdown-content {
+header nav .parts:hover .dropdown-content {
     display: block;
 }
-nav .rss {
+header nav .rss {
     height: 14pt;
     width: 14pt;
     border-radius: 0;
@@ -131,6 +131,17 @@ main h3 {
     font-size: 100%;
     text-decoration: underline;
     font-weight: normal;
+}
+#ToC {
+    border: 1px dashed #090;
+    padding: 8pt;
+}
+#ToC ul {
+    margin: 0;
+}
+#ToC .title {
+    font-size: 115%;
+    text-decoration: underline;
 }
 main a, main a:visited {
     color: var(--main-link);
