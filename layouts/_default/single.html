@@ -2,11 +2,13 @@
     <h1>{{ .Title }}</h1>
     {{ with .Params.image }}
         <img src="{{ printf "img/%s" . | relURL }}" />
+        <br /><br />
     {{ end }}
-    <br /><br />
     {{ .Content }}
-    <hr />
-    <ul>
-        {{ partial "metadata" . }}
-    </ul>
+    {{ if (in .Site.Params.ComponentSections .Section) }}
+        <hr />
+        <ul>
+            {{ partial "metadata" . }}
+        </ul>
+    {{ end }}
 {{ end }}

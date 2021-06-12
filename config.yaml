@@ -12,6 +12,12 @@ permalinks:
     software: :slug
 params:
     dateFmt: "2006-01-02"
+    ComponentSections:
+        - prototypes
+        - circuits
+        - boards
+        - textiles
+        - software
 outputs:
     home: ["HTML", "RSS"]
     section: ["HTML"]
