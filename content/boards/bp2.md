@@ -17,3 +17,4 @@ An "Arduino Nano 33 BLE Sense" shield that...
 - Supplies 2.5V (Vref pins) from a voltage divider + LM321 opamp,
 - Is powered by a 1.2V AAA battery on "Keystone 82" battery clips,
 - Exposes 3 digital and 8 analog pass-through pins for the Arduino
+- Dimensions: 50 x 25mm
