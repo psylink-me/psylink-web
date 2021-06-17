@@ -2,6 +2,7 @@
 title: Power Module 3
 slug: bp3
 image: boards/bp3.png
+image_back: boards/bp3_back.png
 date: 2021-06-15
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/circuit9.kicad_pcb
 circuit: c9

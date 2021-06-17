@@ -6,11 +6,27 @@
             {{ .TableOfContents }}
         </aside>
     {{ end }}
+
     {{ with .Params.image }}
-        <img src="{{ printf "img/%s" . | relURL }}" />
+        {{ with printf "img/%s" . | relURL }}
+            <a href="{{.}}"><img src="{{ . }}" /></a>
+        {{ end }}
+    {{ end }}
+
+    {{ with .Params.image_back }}
+        {{ with printf "img/%s" . | relURL }}
+            <h2>Back side:</h2>
+            <a href="{{.}}"><img src="{{ . }}" /></a>
+            <br /><br />
+        {{ end }}
+    {{ end }}
+
+    {{ if and .Params.image (not .Params.image_back) }}
         <br /><br />
     {{ end }}
+
     {{ .Content }}
+
     {{ if (in .Site.Params.ComponentSections .Section) }}
         <hr />
         <ul>
