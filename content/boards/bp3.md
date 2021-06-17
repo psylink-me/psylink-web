@@ -17,7 +17,7 @@ An "Arduino Nano 33 BLE Sense" shield that...
 - Exposes 3 digital and 8 analog pass-through pins for the Arduino
 - Provides jumpers for
     - Enabling the reference voltage circuit
-    - Conncting Arduino's A7 to the + terminal of the battery to measure the
+    - Connecting Arduino's A7 to the + terminal of the battery to measure the
       battery level
     - Two software-configurable pins that you can ground with a jumper
 - Dimensions: 47.63 x 31.34mm
