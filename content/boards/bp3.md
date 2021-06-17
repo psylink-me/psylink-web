@@ -21,3 +21,19 @@ An "Arduino Nano 33 BLE Sense" shield that...
       battery level
     - Two software-configurable pins that you can ground with a jumper
 - Dimensions: 47.63 x 31.34mm
+
+## Improvements over {{% link "bp2" %}}
+
+- Placed the arduino and battery side-by-side instead of on top of each other.
+  This makes the board wider and less tall, making it fit better on the
+  forearm.
+- Added more capacitors all over the place
+- Added various jumpers:
+    - A solder jumper to enable/disable the reference voltage generator, in
+      case I come up with a setup where I won't actually need it
+    - A solder jumper to sacrifice one electrode and use its analog input pin
+      to measure the battery charge instead.
+    - Three configuration pins, connectable via jumpers, to change software
+      settings on the fly and toggle between up to 4 different modes.  Or you
+      can use them to plug in an extra module.
+- Hopefully fixed the layout for the step-up converter
