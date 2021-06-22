@@ -5,8 +5,9 @@ image: boards/bp3.png
 image_back: boards/bp3_back.png
 date: 2021-06-15
 tested: true
+prototypes: ["p6"]
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/circuit9.kicad_pcb
-circuit: c9
+circuit: c9.1
 ---
 
 An "Arduino Nano 33 BLE Sense" shield that...

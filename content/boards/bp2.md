@@ -7,6 +7,7 @@ blog: roots
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/circuit8.kicad_pcb
 tested: true
 broken: true
+prototypes: ["p5"]
 circuit: c8
 ---
 
