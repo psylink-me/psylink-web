@@ -1,6 +1,62 @@
-{{ define "main" }}
-    {{ with site.GetPage "intro" }}
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
-    {{ end }}
+{{ define "basecontent" }}
+    <main class="frontpage">
+        <div class="card card1">
+            <div class="container1">
+                <div class="item punchline punchline1">
+                    <span class="center">
+                        Reimagine<br />
+                        Neural Interfaces<br />
+                        <!--<a href="..." class="button">Try Now</a>-->
+                    </span>
+                </div>
+                <div class="item banner">
+                    <a href="/p4"><img src="/img/prototypes/p4.jpg" class="banner" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="card card2">
+            <div class="container1">
+                <div class="item video">
+                    <div class="center-vertical">
+                        <div class="aspectratio">
+                            <iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 4 Demo" src="https://peertube.linuxrocks.online/videos/embed/0fe35dae-f1fc-4ace-b6e1-5f54e255bbef" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="item punchline punchline2">
+                    <span class="center">
+                        AI-powered neural interface to<br />
+                        control games, make music,<br />
+                        and endless more possibilities.<br />
+                        <a href="https://peertube.linuxrocks.online/video-channels/psylink/videos" class="button">More videos</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="card card3">
+            <center class="punchline punchline3">
+                Take back control &mdash; PsyLink is open source, free software and open hardware.
+            </center>
+            <div class="container3">
+                <div class="item">
+                    <a href="/boards"><img src="/img/boards/bp3.png" /></a>
+                </div>
+                <div class="item">
+                    <a href="/circuits"><img src="/img/circuits/c9.1.png" /></a>
+                </div>
+                <div class="item">
+                    <a href="/software"><img src="/img/software/s3.png" /></a>
+                </div>
+                <div class="item">
+                    <a href="/textiles"><img src="/img/blog/2021-05-12_electrode_map.jpg" /></a>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <center class="punchline punchline3">
+                <a href="/blog">Blog</a> &mdash; <a href="/faq">FAQ</a> &mdash; <a href="https://codeberg.org/psylink/psylink">git</a>
+            </center>
+        </div>
+    </main>
 {{ end }}

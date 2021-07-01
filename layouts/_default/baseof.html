@@ -34,8 +34,10 @@
                 </nav>
             </div>
         </header>
-        <main>
+        {{ block "basecontent" . }}
+        <main class="default">
             {{ block "main" . }}{{ end }}
         </main>
+        {{ end }}
     </body>
 </html>
