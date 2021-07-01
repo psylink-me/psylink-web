@@ -129,7 +129,7 @@ main.frontpage .video iframe {
     /*border: 1px solid red;*/
 }
 .punchline1 {
-    font-size: 300%;
+    font-size: 250%;
     padding-bottom: 0.6em;
 }
 .punchline1 .button {
@@ -156,12 +156,11 @@ main.frontpage .card {
     padding: 20pt;
 }
 main.frontpage .button {
-    border: 2px solid #aa5;
-    background-color: #ee0;
+    background-color: var(--logo-fg);
     color: #224;
     padding: 0.1em 0.5ch;
-    border-radius: 0.6em;
-    margin: 0.2em;
+    border-radius: 0.4em;
+    margin: 0.6em 0.2em;
 }
 main.frontpage .card1 {
     /* Gradient background? */
@@ -201,14 +200,16 @@ main.frontpage .card2 {
 }
 main.frontpage .card3 {
     background-color: var(--main-bg);
-    padding-bottom: 10em;
+    padding-bottom: 13vh;
 }
 main.frontpage .card3 .item {
     flex-grow: 1 1 0;
 }
 main.frontpage .card3 img {
     max-height: 200pt;
-    padding: 1em;
+    padding: 0.6em;
+    border-radius: 0.8em !important;
+    box-sizing: border-box;
 }
 
 /*************************/
