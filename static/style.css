@@ -131,6 +131,10 @@ main.frontpage .video iframe {
     font-size: 250%;
     padding-bottom: 0.6em;
 }
+.punchline1 .line {
+    width: 55%;
+    border: 3pt solid var(--logo-fg);
+}
 .punchline1 .button {
     font-size: 70%;
 }
