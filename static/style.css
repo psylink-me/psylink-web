@@ -116,7 +116,6 @@ main.frontpage .banner img {
 }
 main.frontpage .video {
     flex-grow: 2;
-    padding: 1em;
     min-height: 100px;
 }
 main.frontpage .video iframe {
@@ -136,7 +135,7 @@ main.frontpage .video iframe {
     font-size: 70%;
 }
 .punchline2 {
-    padding-top: 1em;
+    padding: 1em;
     font-size: 150%;
 }
 .punchline3 {
@@ -209,7 +208,6 @@ main.frontpage .card3 img {
     max-height: 200pt;
     padding: 0.6em;
     border-radius: 0.8em !important;
-    box-sizing: border-box;
 }
 
 /*************************/
@@ -260,6 +258,7 @@ main a, main a:visited {
 img, iframe {
     max-width: 100%;
     border-radius: 4pt;
+    box-sizing: border-box;
 }
 table, td, tr {
     border-collapse: collapse;
