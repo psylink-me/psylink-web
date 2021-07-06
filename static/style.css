@@ -52,8 +52,9 @@ header .content {
     margin: 0 auto;
 }
 header .logo {
-    width: 20pt;
-    height: 20pt;
+    width: 32pt;
+    height: 32pt;
+    margin-bottom: -6pt;
     border-radius: 0;
 }
 header .header {
