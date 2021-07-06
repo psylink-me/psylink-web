@@ -45,13 +45,7 @@ style='color:#5A85E9;'>g</span></i></b> this project by donating:
 
 ## Can I get a PsyLink device?
 
-Absolutely. You could:
-
-- Try to build one yourself.  The schematics are linked on the [prototype
-  pages](/prototypes), and if you require anything that you can't find online,
-  [please let me know](https://codeberg.org/psylink/psylink/issues).  Make sure
-  to tell me how it goes! :)
-- You can also request a delivery, simply contact me at hut໑hut.pm.
+Absolutely. [Click here](/get) for more information.
 
 ## Official Links
 

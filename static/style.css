@@ -160,16 +160,17 @@ main.frontpage .video iframe {
 main.frontpage .card {
     padding: 20pt;
 }
-main.frontpage .button {
+.button {
     background-color: var(--logo-fg);
-    color: #000;
-    padding: 0.1em 0.5ch;
+    font-family: sans-serif;
+    color: #000 !important;
+    padding: 0.2em 0.6ch;
     border-radius: 0.4em;
     margin: 0.6em 0.2em;
     box-shadow: 0 0 8pt var(--logo-fg);
     transition: 0.4s;
 }
-main.frontpage .button:hover {
+.button:hover {
     box-shadow: 0 0 100pt rgba(0,0,0,0);
 }
 main.frontpage .card1 {
