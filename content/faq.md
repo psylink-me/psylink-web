@@ -3,13 +3,13 @@ title: Frequently Asked Questions
 toc: true
 ---
 
-## How can I contact the author?
+## Author
 
 - Mail: hut໑hut.pm
 - [XMPP](https://xmpp.org/getting-started/): hut&#64;xmpp.social
 - [Issue tracker](https://codeberg.org/psylink/psylink/issues)
 
-## What's the ultimate goal?
+## Ultimate Goals
 
 The nature of this project is explorative, so there is not an ultimate goal
 yet, but I have the following keystones:
@@ -27,6 +27,8 @@ There's a wide range of possible applications, including:
 - Enabling efficient computer control for disabled individuals
 - Musical instruments
 - Controlling smart home appliances
+
+## Donations
 
 I quit my job to work full-time on this project, so naturally I can only go as
 far as my funding will take me :) If you like what you see here, please
@@ -51,7 +53,7 @@ Absolutely. You could:
   to tell me how it goes! :)
 - You can also request a delivery, simply contact me at hut໑hut.pm.
 
-## What are official links?
+## Official Links
 
 - [Codeberg](https://codeberg.org/psylink)
     * [Source code for software, schematics, PCBs](https://codeberg.org/psylink/psylink)
@@ -59,7 +61,7 @@ Absolutely. You could:
     * [Issue tracker](https://codeberg.org/psylink/psylink/issues) (feel free to ask any questions there)
 - [PeerTube Video Channel](https://peertube.linuxrocks.online/video-channels/psylink/videos)
 
-## What's the license?
+## License
 
 - Music in videos: See the license of the respective owner
 - Pictures, videos, prose in blog posts: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
