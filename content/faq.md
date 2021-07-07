@@ -54,6 +54,7 @@ Absolutely. [Click here](/get) for more information.
     * [Source code for this website](https://codeberg.org/psylink/www-psylink)
     * [Issue tracker](https://codeberg.org/psylink/psylink/issues) (feel free to ask any questions there)
 - [PeerTube Video Channel](https://peertube.linuxrocks.online/video-channels/psylink/videos)
+- [Mastodon Channel](https://fosstodon.org/@psylink) (like twitter, without the corporate control)
 
 ## License
 
