@@ -17,7 +17,7 @@ it goes! :)
 
 ## Ordering
 
-If you lack the tools or the time, I'd be willing to build one for you at
-the approximate cost price.
+If you lack the tools or the time, you're in luck:  For a limited time, we're
+offering to deliver assembled prototypes at approximate cost price.
 
 If you're interested, simply contact me via <u>hut໑hut.pm</u>
