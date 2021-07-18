@@ -35,9 +35,6 @@ body {
     display: flex;
     flex-flow: column;
 }
-a, a:visited {
-    text-decoration: none;
-}
 b, strong {
     color: #fff;
 }
@@ -63,6 +60,9 @@ header .logo {
 header .header {
     font-size: 28pt;
     color: var(--logo-fg);
+}
+header a, header a:visited {
+    text-decoration: none;
 }
 
 /*************************/
@@ -268,7 +268,6 @@ main h3 {
 }
 main a, main a:visited {
     color: var(--main-link);
-    text-decoration: none;
 }
 img, iframe {
     max-width: 100%;
