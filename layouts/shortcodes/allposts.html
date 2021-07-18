@@ -4,7 +4,7 @@
 <ul>
 <li><a href="#_intro">{{ $intro.Title }}</a>
 {{ range $pages }}
-<li><a href="#{{.Slug}}">{{ .Date.Format "2006-01-02" }}: {{ replaceRE "^[^:]+: " "" .Title }}</a></li>
+<li><a href="#{{.Slug}}">{{ .Date.Format "2006-01-02" }}: {{ .Title }}</a></li>
 {{ end }}
 {{ with site.GetPage "_footer" }}
     <li><a href="#_footer">{{ .Title }}</a>
