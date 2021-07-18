@@ -38,6 +38,9 @@ body {
 a, a:visited {
     text-decoration: none;
 }
+b, strong {
+    color: #fff;
+}
 /*************************/
 /* HEADER */
 header {
