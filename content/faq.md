@@ -45,7 +45,20 @@ style='color:#5A85E9;'>g</span></i></b> this project by donating:
 
 ## Can I get a PsyLink device?
 
-Absolutely. [Click here](/get) for more information.
+Absolutely, and [there's a special page just for that](/get).
+
+## How can I participate?
+
+This project is so multifaceted that you can help in a lot of different ways,
+from pointing out typos or design flaws to contributing code or assembling
+psylink prototypes.  Whatever you find interesting and worth your time :)
+
+Two good starting points are:
+
+- [The list of open issues](https://codeberg.org/psylink/psylink/issues)
+- Contact the author (see above) and just chat about the project
+
+And finally, just telling your friends about it already helps a lot :)
 
 ## Official Links
 
