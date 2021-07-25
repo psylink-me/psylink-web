@@ -166,6 +166,7 @@ main.frontpage .card {
 .button {
     background-color: var(--logo-fg);
     font-family: sans-serif;
+    text-decoration: none;
     color: #000 !important;
     padding: 0.2em 0.6ch;
     border-radius: 0.4em;
