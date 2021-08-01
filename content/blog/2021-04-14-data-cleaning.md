@@ -32,4 +32,4 @@ jumping game [Sienna](https://tangramgames.dk/games/sienna/) by flipping my
 wrist.  This doesn't go so well, but maybe this game isn't the best benchmark
 :D My short-term goal is to finish level 1 of this game with my device.
 
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 3 Demo #2" src="https://peertube.linuxrocks.online/videos/embed/1f3470fd-bb9a-4202-ba53-1d6686061cae" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 3 Demo #2 (remastered)" src="https://peertube.linuxrocks.online/videos/embed/9e85ff35-6b3f-49dc-baf8-799f2f581e6a" frameborder="0" allowfullscreen></iframe>

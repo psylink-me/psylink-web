@@ -17,7 +17,7 @@ All put together finally allowed me to singlehandedly drive through the finish
 line of my favorite racing game F-Zero! \o/
 
 
-<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 4 Demo" src="https://peertube.linuxrocks.online/videos/embed/0fe35dae-f1fc-4ace-b6e1-5f54e255bbef" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" title="PsyLink 4 Demo" src="https://peertube.linuxrocks.online/videos/embed/50f04ab3-fb5f-4fda-b254-af0664641828" frameborder="0" allowfullscreen></iframe>
 
 - For training the AI, I recorded 60k samples over 2 minutes (500Hz)
 - Trained for 5 epochs, which took 1 minute without GPU acceleration
