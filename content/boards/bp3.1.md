@@ -11,5 +11,6 @@ circuit: c9.1
 
 ## Improvements over {{% link "bp3" %}}
 
+- Changed package for L1 inductance coil from 1206 to 1210, so one can fit larger coils with a higher maximum current rating on it
 - For easier soldering, added thermal reliefs on the filled area for GND on the back side
 - For easier soldering, [added larger pads for L1/U*/R*/C* components](https://codeberg.org/psylink/psylink/issues/8)
