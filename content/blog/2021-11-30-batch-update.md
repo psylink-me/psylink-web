@@ -9,7 +9,7 @@ life, but there has still been progress with PsyLink:
 
 ## Prototype 6 improvements
 
-I redesigned {{% link "bp3" %}} to be more easily hand-solderable by enlarging the solder pads and adding thrmal clearances to some of the filled copper areas. (The copper tracks to several pads were so wide that the heat of the solder iron was dissipating too fast into the copper, and the pads were not heating up properly). The result is {{% link "bp3.1" %}}.
+I redesigned {{% link "bp3" %}} to be more easily hand-solderable by enlarging the solder pads and adding thermal clearances to some of the filled copper areas. (The copper tracks to several pads were so wide that the heat of the solder iron was dissipating too fast into the copper, and the pads were not heating up properly). The result is {{% link "bp3.1" %}}.
 
 ## Prototype 7
 
@@ -32,13 +32,16 @@ make it easier to assemble:
 
 ## Prototype 8 (WIP)
 
-As a result, I designed {{% link "c10" %}} and {{% link "b3" %}}, which should
-reduce the assembly time to less than 5 hours. (I'm still a slow solderer :D)
-The circuit is:
+The 8th prototype implements those changes, resulting in a device purely made
+of PCBs connected by rubber bands and wires. These PCBs rest on the skin on
+legs of metal, which double as the electrodes.
+
+As of now, only the differential amplifiers are finished.  The circuit for
+these is {{% link "c10" %}}:
 
 [![c10](/img/circuits/c10.png)](/c10)
 
-The front-side of the board:
+The front-side of the {{% link "b3" %}} board:
 
 [![b7](/img/boards/b3.png)](/b3)
 
@@ -59,15 +62,15 @@ external electrodes.
 A first prototype using {{% link "b3" %}} and {{% link "bp3.1" %}} (with an
 improvised rubber band mounting mechanism) can be seen here:
 
-![](/img/blog/2021-10-06_p8_test.jpg)
+![outside view](/img/blog/2021-10-06_p8_test.jpg)
 
-![](/img/blog/2021-10-06_p8_test2.jpg)
+![inside view](/img/blog/2021-10-06_p8_test2.jpg)
 
 I played around with using off-the-shelf wet EMS (electric muscle stimulation)
 electrodes for the ground electrode, since good connectivity for the ground
 electrode is important for a good signal.
 
-![](/img/blog/2021-11-18_p8_test3.jpg)
+![outside view with wet electrode](/img/blog/2021-11-18_p8_test3.jpg)
 
 I did not find an improvement in the signal though, perhaps wet electrodes are
 not worth it.
@@ -76,4 +79,6 @@ Finally, the global microchip shortage has affected this project as well, and I 
 
 ## Future plans
 
-A power module that is more compatible with the {{% link "b3" %}}, by making it as long as the {{% link "b3" %}}, and either by adding rubber band mounting holes, or by adding pin headers so that it can be stacked on top of the amplifier board, which would reduce the number of dangling wires as well.
+The power module is currently only clumsily attached to the rubber band. The finished Prototype 8 will need a power module that's more compatible with the {{% link "b3" %}}, by making it as long as the {{% link "b3" %}}, and either by adding rubber band mounting holes, or by adding pin headers so that it can be stacked on top of the amplifier board, which would reduce the number of dangling wires as well.
+
+I will also try out cheaper differential amplifiers to reduce the total cost of the device from ~70€ to ~30€ (excluding the ~39€ for the Arduino Nano 33 BLE Sense).
