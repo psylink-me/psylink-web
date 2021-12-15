@@ -193,12 +193,17 @@ main.frontpage .card1 {
     height: 100%;
     flex: 1 1 auto;
 }
-.aspectratio iframe {
+.aspectratio iframe, .video-fallback-text {
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
+}
+.video-fallback-text {
+    text-align: center;
+    font-size: 120%;
+    background-color: black;
 }
 .container1 {
     display: flex;
