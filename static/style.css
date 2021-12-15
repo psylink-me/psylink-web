@@ -179,6 +179,8 @@ main.frontpage .card {
 }
 main.frontpage .card1 {
     /* Gradient background? */
+    background-image: url(hex.png);
+    background-position: 20px 40px;
 }
 .aspectratio {
     position: relative;
@@ -220,6 +222,8 @@ main.frontpage .card2 {
 main.frontpage .card3 {
     background-color: var(--main-bg);
     padding-bottom: 13vh;
+    background-image: url(hex.png);
+    background-position: 20px 40px;
 }
 main.frontpage .card3 .item {
     flex-grow: 1 1 0;
