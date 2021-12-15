@@ -4,7 +4,7 @@ slug: bp3.1
 image: boards/bp3.1.png
 image_back: boards/bp3.1_back.png
 date: 2021-09-14
-prototypes: ["p6"]
+prototypes: ["p6", "p7"]
 tested: true
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/bp3.1.kicad_pcb
 circuit: c9.1
