@@ -4,6 +4,7 @@ slug: bp4
 image: boards/bp4.png
 image_back: boards/bp4_back.png
 date: 2021-12-12
+blog: power-module4
 prototypes: ["p8"]
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/circuit11.kicad_pcb
 circuit: c11
