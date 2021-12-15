@@ -2,7 +2,7 @@
 title: Getting A PsyLink
 ---
 
-[![PsyLink 6 photo](/img/blog/2021-06-24_closed.jpg)](/p6)
+[![PsyLink 6 photo](/img/prototypes/p8.jpg)](/p6)
 
 ## DIY
 
