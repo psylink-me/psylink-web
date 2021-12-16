@@ -39,6 +39,7 @@ style='color:#8ABB94;'>r</span><span style='color:#7EAEA9;'>t</span><span
 style='color:#72A0BE;'>i</span><span style='color:#6693D4;'>n</span><span
 style='color:#5A85E9;'>g</span></i></b> this project by donating:
 
+- [Liberapay](https://liberapay.com/psylink/)
 - [Ether](https://en.wikipedia.org/wiki/Ethereum): 0x880C89B745e82230a1CdAe33EfeCf09011C37c89
 - [Dash](https://en.wikipedia.org/wiki/Dash_(cryptocurrency)): XocV8MudehfcoLvCj2xwaCDKx3EDCbeuCf
 - [Request additional payment methods](https://codeberg.org/psylink/psylink/issues)
