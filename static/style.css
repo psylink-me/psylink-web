@@ -113,7 +113,7 @@ main.frontpage {
     background-color: var(--main-bg);
 }
 main.frontpage .banner {
-    flex-grow: 2;
+    flex-grow: 1;
 }
 main.frontpage .banner img {
     width: 100%;
