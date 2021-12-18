@@ -41,7 +41,7 @@ these is {{% link "c10" %}}:
 
 [![c10](/img/circuits/c10.png)](/c10)
 
-The front-side of the {{% link "b3" %}} board:
+The front-side of the {{% link "b3" %}}:
 
 [![b7](/img/boards/b3.png)](/b3)
 
