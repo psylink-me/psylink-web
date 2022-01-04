@@ -4,7 +4,7 @@ title: Getting A PsyLink
 
 [![PsyLink 8 photo](/img/prototypes/p8.jpg)](/p8)
 
-## DIY
+## Option 1: DIY
 
 PsyLink is open hardware so you can just build one yourself.
 
@@ -16,7 +16,7 @@ If you require anything that you can't find online, [please let me
 know](https://codeberg.org/psylink/psylink/issues).  Make sure to tell me how
 it goes! :)
 
-## Ordering
+## Option 2: Ordering
 
 If you lack the tools or the time, you're in luck:  For a limited time, you can
 request a pre-assembled {{% link "p8" %}} at approximate cost+shipment price.
