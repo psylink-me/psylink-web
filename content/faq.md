@@ -75,5 +75,5 @@ And finally, just telling your friends about it already helps a lot :)
 - Music in videos: See the license of the respective owner
 - Pictures, videos, prose in blog posts: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - Code, schematics, designs, and everything else: [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
-    - Copyright (C) 2021 Roman Zimbelmann
+    - Copyright (C) 2022 Roman Zimbelmann
     - See also the [README file](https://codeberg.org/psylink/psylink#license)
