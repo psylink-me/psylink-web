@@ -63,6 +63,7 @@ And finally, just telling your friends about it already helps a lot :)
 
 ## Official Links
 
+- [Matrix Chatroom: #psylink:matrix.org](https://matrix.to/#/#psylink:matrix.org)
 - [Codeberg](https://codeberg.org/psylink)
     * [Source code for software, schematics, PCBs](https://codeberg.org/psylink/psylink)
     * [Source code for this website](https://codeberg.org/psylink/www-psylink)
