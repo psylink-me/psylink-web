@@ -27,7 +27,7 @@ If you lack the tools or the time, you're in luck:  For a limited time, you can
 request a pre-assembled {{% link "p9" %}} at approximate cost price plus
 shipment from Germany.
 
-If you're interested, simply contact me via <u>hut໑hut.pm</u>, with answers to
+If you're interested, simply contact me via <u>info໑psylink.me</u>, with answers to
 the following three questions:
 
 ## Question 1: Location

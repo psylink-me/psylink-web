@@ -3,11 +3,38 @@ title: Frequently Asked Questions
 toc: true
 ---
 
-## Author
+## How can I get in touch with you?
 
-- Mail: hut໑hut.pm
-- [XMPP](https://xmpp.org/getting-started/): hut&#64;xmpp.social
-- [Issue tracker](https://codeberg.org/psylink/psylink/issues)
+- Mail: info໑psylink.me
+- Matrix Chatroom: [#psylink:matrix.org](https://matrix.to/#/#psylink:matrix.org)
+
+## Contributors
+
+- [hut](https://hut.pm): Project leader, investor, creator/maintainer of the software/hardware/website/blog
+- keks: Consulting, testing
+- knoc: Consulting, testing
+- [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
+- [ktrask](https://twitter.com/ktrask23) ([mastodon](https://chaos.social/@ktrask)): Consulting, testing
+- [Fabien Devaux](http://github.com/fdev31/): Consulting
+- [Cade Brown](https://cade.site/): Testing, financial support
+- [Hackaday.com](https://hackaday.com/2022/01/07/psylink-an-open-source-neural-interface-for-non-invasive-emg/): Spreading the word, networking
+- Thanks to all the patrons on [Liberapay](https://liberapay.com/psylink/) for financial support!
+
+## Donations
+
+The main author quit his job to work full-time on this project, so naturally
+it can only go as far as his funding will take us :) If you like what
+you see here, please consider <b><i><span style='color:#C6FF29;'>s</span><span
+style='color:#BAF13E;'>u</span><span style='color:#AEE453;'>p</span><span
+style='color:#A2D669;'>p</span><span style='color:#96C97E;'>o</span><span
+style='color:#8ABB94;'>r</span><span style='color:#7EAEA9;'>t</span><span
+style='color:#72A0BE;'>i</span><span style='color:#6693D4;'>n</span><span
+style='color:#5A85E9;'>g</span></i></b> this project by donating:
+
+- [Liberapay](https://liberapay.com/psylink/)
+- [Ether](https://en.wikipedia.org/wiki/Ethereum): 0xD87fC5fEcC32e31587F9C5481fe1a3F33eDF24Ed
+- [Dash](https://en.wikipedia.org/wiki/Dash_(cryptocurrency)): XocV8MudehfcoLvCj2xwaCDKx3EDCbeuCf
+- [Request additional payment methods](https://codeberg.org/psylink/psylink/issues)
 
 ## Ultimate Goals
 
@@ -27,22 +54,6 @@ There's a wide range of possible applications, including:
 - Enabling efficient computer control for disabled individuals
 - Musical instruments
 - Controlling smart home appliances
-
-## Donations
-
-I quit my job to work full-time on this project, so naturally I can only go as
-far as my funding will take me :) If you like what you see here, please
-consider <b><i><span style='color:#C6FF29;'>s</span><span
-style='color:#BAF13E;'>u</span><span style='color:#AEE453;'>p</span><span
-style='color:#A2D669;'>p</span><span style='color:#96C97E;'>o</span><span
-style='color:#8ABB94;'>r</span><span style='color:#7EAEA9;'>t</span><span
-style='color:#72A0BE;'>i</span><span style='color:#6693D4;'>n</span><span
-style='color:#5A85E9;'>g</span></i></b> this project by donating:
-
-- [Liberapay](https://liberapay.com/psylink/)
-- [Ether](https://en.wikipedia.org/wiki/Ethereum): 0xD87fC5fEcC32e31587F9C5481fe1a3F33eDF24Ed
-- [Dash](https://en.wikipedia.org/wiki/Dash_(cryptocurrency)): XocV8MudehfcoLvCj2xwaCDKx3EDCbeuCf
-- [Request additional payment methods](https://codeberg.org/psylink/psylink/issues)
 
 ## Can I get a PsyLink device?
 
