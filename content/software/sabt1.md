@@ -1,5 +1,5 @@
 ---
-title: AnalogToBLE1.0.ino
+title: AnalogToBLE 1.0 Firmware
 slug: sabt1
 image: software/sabt1.png
 date: 2021-07-27
