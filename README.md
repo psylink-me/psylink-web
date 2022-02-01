@@ -22,4 +22,5 @@ Since they seem a little cryptical though, here's the convention:
     - t: textiles
     - s: software
         - sa: Arduino software
+        - sabt: Arduino software with bluetooth support
         - sg: GNURadio software
