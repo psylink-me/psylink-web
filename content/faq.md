@@ -18,7 +18,7 @@ toc: true
 - [Fabien Devaux](http://github.com/fdev31/): Consulting
 - [Wojciech Siewierski](https://einval.eu): Consulting
 - [Cade Brown](https://cade.site/): Testing, financial support
-- Ricard Collins: Consulting, financial support
+- Ricard Collins: Consulting, financial support, testing
 - [Hackaday.com](https://hackaday.com/2022/01/07/psylink-an-open-source-neural-interface-for-non-invasive-emg/): Spreading the word, networking
 - Thanks to all the patrons on [Liberapay](https://liberapay.com/psylink/) for financial support!
 
