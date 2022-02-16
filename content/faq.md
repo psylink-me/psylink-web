@@ -69,10 +69,11 @@ This project is so multifaceted that you can help in a lot of different ways,
 from pointing out typos or design flaws to contributing code or assembling
 psylink prototypes.  Whatever you find interesting and worth your time :)
 
-Two good starting points are:
+Good starting points are:
 
 - [The list of open issues](https://codeberg.org/psylink/psylink/issues)
-- Contact the author (see above) and just chat about the project
+- Join the [Matrix Chatroom](https://matrix.to/#/#psylink:matrix.org) and chat with the community about the project
+- Read and expand the [PsyLink Wiki](https://codeberg.org/psylink/psylink/wiki)
 
 And finally, just telling your friends about it already helps a lot :)
 
