@@ -52,6 +52,8 @@ yet, but I have the following keystones:
 - Privacy preserving free software & hardware, fully customizable and in
   control of the user
 
+Short-term goals and possible next steps are outlined on the ["Next Steps" page on the PsyLink wiki](https://codeberg.org/psylink/psylink/wiki/Next-Steps).
+
 There's a wide range of possible applications, including:
 
 - Providing input to a computer/smartphone without using a keyboard or mouse
