@@ -90,6 +90,12 @@ And finally, just telling your friends about it already helps a lot :)
 - [PeerTube Video Channel](https://peertube.linuxrocks.online/video-channels/psylink/videos)
 - [Mastodon Channel](https://fosstodon.org/@psylink) (like twitter, without the corporate control)
 
+## Privacy Policy
+
+This website stores no data whatsoever about visitors.
+
+However, some pages embed video content from the third-party service [peertube.linuxrocks.online](https://peertube.linuxrocks.online), which may or may not store data about visitors.  Please refer to their privacy policy.
+
 ## License
 
 - Music in videos: See the license of the respective owner
