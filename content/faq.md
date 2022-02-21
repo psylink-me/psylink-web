@@ -92,9 +92,9 @@ And finally, just telling your friends about it already helps a lot :)
 
 ## Privacy Policy
 
-This website stores no data whatsoever about visitors.
+This website does not set cookies and stores no data whatsoever about visitors.
 
-However, some pages embed video content from the third-party service [peertube.linuxrocks.online](https://peertube.linuxrocks.online), which may or may not store data about visitors.  Please refer to their privacy policy.
+However, some pages embed video content from the third-party service [peertube.linuxrocks.online](https://peertube.linuxrocks.online), which may or may not set cookies and store data about visitors.  Please refer to their privacy policy.
 
 ## License
 
