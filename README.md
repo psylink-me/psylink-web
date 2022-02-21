@@ -1,7 +1,9 @@
+# PsyLink Website
+
 This is the website for [psylink](https://psylink.me), generated with
 [hugo](https://gohugo.io).
 
-# Slug Naming Convention
+## Slug Naming Convention
 
 The URL slugs for prototypes and components are kept intentionally short so one
 can easily write them onto the physical object if desired.  For example, you
