@@ -3,14 +3,14 @@ title: Frequently Asked Questions
 toc: true
 ---
 
-## How can I get in touch with you?
+## Contact Information
 
 - Mail: info໑psylink.me
 - Matrix Chatroom: [#psylink:matrix.org](https://matrix.to/#/#psylink:matrix.org)
 
 ## Contributors
 
-- [hut](https://hut.pm): Project leader, investor, creator/maintainer of the software/hardware/website/blog
+- [hut](https://hut.pm): Project leader, investor, creator/maintainer of the software, hardware, website, blog, etc.
 - keks: Consulting, testing
 - knoc: Consulting, testing
 - [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
@@ -61,9 +61,9 @@ There's a wide range of possible applications, including:
 - Musical instruments
 - Controlling smart home appliances
 
-## Can I get a PsyLink device?
+## Getting a PsyLink
 
-Absolutely, and [there's a special page just for that](/get).
+You can absolutely get your own PsyLink, and [there's a special page just for that](/get).
 
 ## How can I participate?
 

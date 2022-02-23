@@ -270,10 +270,12 @@ main h3 {
     font-weight: normal;
 }
 #ToC {
+    float: right;
     box-shadow: 0 0 8pt #131;
     background: #112c11;
     border-radius: 8pt;
     padding: 8pt;
+    margin: 1em;
     margin-bottom: 1em;
 }
 #ToC ul {
