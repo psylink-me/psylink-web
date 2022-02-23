@@ -270,13 +270,15 @@ main h3 {
     font-weight: normal;
 }
 #ToC {
-    float: right;
-    box-shadow: 0 0 8pt #131;
-    background: #112c11;
-    border-radius: 8pt;
-    padding: 8pt;
+    box-shadow: 1pt 1pt 3pt #aaa;
+    border: 2px solid #aaa;
+    border-radius: 5pt;
+    padding: 0.5em 1em;
     margin: 1em;
     margin-bottom: 1em;
+}
+@media (min-width: 60ch) {
+    #ToC { float: right; }
 }
 #ToC ul {
     margin: 0;
@@ -284,6 +286,7 @@ main h3 {
 #ToC .title {
     font-size: 115%;
     text-decoration: underline;
+    color: var(--header-fg);
 }
 main a, main a:visited {
     color: var(--main-link);
