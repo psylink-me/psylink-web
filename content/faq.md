@@ -3,7 +3,7 @@ title: Frequently Asked Questions
 toc: true
 ---
 
-## Contact Information
+## Contact
 
 - Mail: info໑psylink.me
 - Matrix Chatroom: [#psylink:matrix.org](https://matrix.to/#/#psylink:matrix.org)
@@ -65,7 +65,7 @@ There's a wide range of possible applications, including:
 
 You can absolutely get your own PsyLink, and [there's a special page just for that](/get).
 
-## How can I participate?
+## Participating
 
 This project is so multifaceted that you can help in a lot of different ways,
 from pointing out typos or design flaws to contributing code or assembling
