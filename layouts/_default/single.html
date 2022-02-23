@@ -1,11 +1,12 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
     {{ if .Params.toc }}
         <aside id="ToC">
             <span class="title">Contents:</span>
             {{ .TableOfContents }}
         </aside>
     {{ end }}
+
+    <h1>{{ .Title }}</h1>
 
     {{ with .Params.image }}
         {{ with printf "img/%s" . | relURL }}
