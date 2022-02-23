@@ -269,9 +269,9 @@ main h3 {
     text-decoration: underline;
     font-weight: normal;
 }
-#ToC, .intro {
-    box-shadow: 0 0 8pt #151;
-    background: #131;
+#ToC {
+    box-shadow: 0 0 8pt #131;
+    background: #112c11;
     border-radius: 8pt;
     padding: 8pt;
     margin-bottom: 1em;
