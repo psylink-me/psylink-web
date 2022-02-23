@@ -2,11 +2,19 @@
     {{ if or .Title .Content }}
     <div>
         {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+        {{ if eq .Section "blog" }}<div class="intro">{{ end }}
         {{ with .Content }}<div>{{ . }}</div>{{ end }}
+        {{ if eq .Section "blog" }}</div>{{ end }}
     </div>
     {{ end }}
 
     {{ if eq .Section "blog" }}
+        {{ range .Pages | first 3 }}
+        {{ partial "shortmetadata.html" . }}
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+        {{ end }}
+        <h1 id="toc">Table of Contents</h1>
         <ul>
             {{ range .Pages }}
             <li>

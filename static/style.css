@@ -269,9 +269,12 @@ main h3 {
     text-decoration: underline;
     font-weight: normal;
 }
-#ToC {
-    border: 1px dashed #090;
+#ToC, .intro {
+    box-shadow: 0 0 8pt #151;
+    background: #131;
+    border-radius: 8pt;
     padding: 8pt;
+    margin-bottom: 1em;
 }
 #ToC ul {
     margin: 0;
