@@ -5,6 +5,7 @@ image: boards/bp4.2.png
 image_back: boards/bp4.2_back.png
 date: 2022-01-26
 prototypes: ["p9.2"]
+tested: true
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/bp4.2.kicad_pcb
 circuit: c12.1
 ---
