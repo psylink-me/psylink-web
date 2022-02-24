@@ -133,6 +133,7 @@ main.frontpage .video iframe {
 }
 .punchline1 {
     font-size: 250%;
+    flex-grow: 10;
     padding-bottom: 0.6em;
 }
 .punchline1 .line {
