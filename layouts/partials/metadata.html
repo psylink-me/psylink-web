@@ -44,6 +44,11 @@
     {{ end }}
 </ul>
 {{ end }}
+{{ with (delimit (slice "bom_" .Params.slug ".ods") "") }}
+{{ if fileExists (delimit (slice "static/tables/" .) "") }}
+<li><b>Bill of materials:</b> <a href="/tables/{{ . }}">{{ . }}</a></li>
+{{ end }}
+{{ end }}
 {{ with .Params.components }}
 <li><b>Components:</b></li>
 <ul>
