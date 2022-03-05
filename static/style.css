@@ -270,7 +270,8 @@ main h3 {
     text-decoration: underline;
     font-weight: normal;
 }
-#ToC {
+.toc {
+    font-size: 95%;
     box-shadow: 1pt 1pt 3pt #aaa;
     border: 2px solid #aaa;
     border-radius: 5pt;
@@ -278,13 +279,27 @@ main h3 {
     margin: 1em;
     margin-bottom: 1em;
 }
-@media (min-width: 60ch) {
-    #ToC { float: right; }
+.bigtoc {
+    position: relative;
+    top: 0;
+    right: -85ch;
+    background-color: var(--main-bg);
 }
-#ToC ul {
+.bigtocwrapper {
+    display: none;
+    position: absolute;
+    height: 0;
+}
+@media (min-width: 60ch) {
+    .toc { float: right; }
+}
+@media (min-width: 165ch) {
+    .bigtocwrapper { display: block; }
+}
+.toc ul {
     margin: 0;
 }
-#ToC .title {
+.toc .title {
     font-size: 115%;
     text-decoration: underline;
     color: var(--header-fg);

@@ -1,5 +1,6 @@
 ---
 title: Development Log
+toc: true
 ---
 
 {{% include "abstract.md" %}}

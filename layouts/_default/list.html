@@ -1,4 +1,27 @@
 {{ define "main" }}
+    {{ if .Params.toc }}
+        <div class="bigtocwrapper">
+            <aside class="toc bigtoc">
+                <span class="title">Contents:</span>
+                <ul>
+                    {{ if eq .Section "blog" }}
+                        <li><a href="/blog/all">[All posts on one page]</a></li>
+                    {{ end }}
+                {{ range .Pages }}
+                <li>
+                    <div class="post-title">
+                    {{ if eq .Section "blog" }}
+                        <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title | truncate 30 }}</a>
+                    {{ else }}
+                    <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
+                    {{ end }}
+                    </div>
+                </li>
+                {{ end }}
+                <ul>
+            </aside>
+        </div>
+    {{ end }}
     {{ if or .Title .Content }}
     <div>
         {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
