@@ -22,7 +22,7 @@ If you would like to give PsyLink a try, you have the following options:
 
 This entire project is open source, the raw materials cost only about 100€, so feel free to replicate it!
 
-There are [various prototypes](/prototypes) and each includes their schematics, bill of materials, and cost breakdowns.  The [PsyLink Wiki](https://codeberg.org/psylink/psylink/wiki) contains tutorials on assembly and getting started with the software.  If you require anything that you can't find online, [please let us know](https://codeberg.org/psylink/psylink/issues).  And please make sure to [tell us](/faq#contact) how it goes! :)
+There are [various prototypes](/prototypes) and each includes its own schematics, bill of materials, and cost breakdowns.  The [PsyLink Wiki](https://codeberg.org/psylink/psylink/wiki) contains tutorials on how to assemble it and how to get started with the software.  If you require anything that you can't find online, [please let us know](https://codeberg.org/psylink/psylink/issues).  Also, please make sure to [tell us how it goes!](/faq#contact) :)
 
 ## 2. Request a pre-assembled one
 
