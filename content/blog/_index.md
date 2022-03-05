@@ -5,4 +5,5 @@ toc: true
 
 {{% include "abstract.md" %}}
 
-You may want to [skip to table of contents](#toc) or [view all posts on one page.](/blog/all)
+* [Skip to table of contents](#toc)
+* [View all posts on one page](/blog/all)
