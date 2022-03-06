@@ -91,6 +91,16 @@ And finally, just telling your friends about it already helps a lot :)
 - [PeerTube Video Channel](https://peertube.linuxrocks.online/video-channels/psylink/videos)
 - [Mastodon Channel](https://fosstodon.org/@psylink) (like twitter, without the corporate control)
 
+## Why not use Twitter/Github/...?
+
+This project exists in the first place because for-profit companies with centralized services have failed to deliver.  For example, the "Myo" was a device similar to the PsyLink, but when the Myo leadership saw a profit opportunity, they abandoned the Myo community and pulled the device from the market.
+
+Just like the Myo, GitHub is a centralized product in the hands of a profit-oriented company, Microsoft.  The same goes for Twitter, YouTube, TikTok, Reddit, Discord.  These services take power away from the community and give it to corporations, which may simply take away your access to those services (e.g. through sanctions or unjustified bans), add undesirable features (e.g. advertisements, fear-mongering recommendations, [dark patterns](https://en.wikipedia.org/wiki/Dark_pattern), demanding private information like a phone number), or just shut down the service entirely.
+
+Therefore the initiator of PsyLink dared the experiment to use services that are decentralized and community-owned.  PeerTube instead of YouTube.  Mastodon instead of Twitter.  Gitea/Codeberg instead of GitHub.  Matrix instead of Discord.
+
+The disadvantages are clear:  The more users are on a platform, the better the project will spread.  But from experience, the author found that if the project is good, it will spread by word of mouth anyway.  Organically and authentically.
+
 ## Privacy Policy
 
 This website does not set cookies and stores no data whatsoever about visitors.
