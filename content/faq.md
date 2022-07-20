@@ -10,7 +10,7 @@ toc: true
 
 ## Contributors
 
-- [hut](https://hut.pm): Project leader, investor, creator/maintainer of the software, hardware, website, blog, etc.
+- [Roman Zimbelmann](https://rzim.dev): Project leader, investor, creator/maintainer of the software, hardware, website, blog, etc.
 - keks: Consulting, testing
 - knoc: Consulting, testing
 - [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
