@@ -15,6 +15,7 @@ toc: true
 - knoc: Consulting, testing
 - [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
 - AntonX: Consulting, hardware design
+- [John Shahbazian](https://github.com/jshahbazi): Consulting, testing, software, financial support
 - [ktrask](https://twitter.com/ktrask23) ([mastodon](https://chaos.social/@ktrask)): Consulting, testing
 - [Fabien Devaux](http://github.com/fdev31/): Consulting
 - [Wojciech Siewierski](https://einval.eu): Consulting
