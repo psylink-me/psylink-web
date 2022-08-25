@@ -33,9 +33,9 @@
 
     {{ if eq .Section "blog" }}
         {{ range .Pages | first 3 }}
-        {{ partial "shortmetadata.html" . }}
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
+            {{ partial "shortmetadata.html" . }}
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
         {{ end }}
         <h1 id="toc">All entries</h1>
         <ul>
