@@ -6,12 +6,12 @@
         <hr />
         <ul>
             {{ with .NextInSection }}
-                <li>Next: <a href="{{.RelPermalink}}{{ partial "index" }}">{{.Title}}</a></li>
+                <li>Newer post: <a href="{{.RelPermalink}}{{ partial "index" }}">{{.Title}}</a></li>
             {{ end }}
             {{ with .PrevInSection }}
-                <li>Previous: <a href="{{.RelPermalink}}{{ partial "index" }}">{{.Title}}</a></li>
+                <li>Older post: <a href="{{.RelPermalink}}{{ partial "index" }}">{{.Title}}</a></li>
             {{ end }}
-                <li>View <a href="{{ (site.GetPage "blog/all").RelPermalink }}{{ partial "index" }}">all posts on a single page</a></li>
+                <li><a href="{{ (site.GetPage "blog/all").RelPermalink }}{{ partial "index" }}">All posts on a single page</a></li>
             {{ if .Date }}
                 <li>Date: {{ .Date.Format .Site.Params.dateFmt }}</li>
             {{ end }}
