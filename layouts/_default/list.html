@@ -37,6 +37,11 @@
             <h1>{{ .Title }}</h1>
             {{ .Content }}
         {{ end }}
+        <p>
+            {{ with index .Pages 3 }}
+                <a href="{{ .RelPermalink }}">Read the older post: {{ .Title }}</a>
+            {{ end }}
+        </p>
         <h1 id="toc">All entries</h1>
         <ul>
             {{ range .Pages }}
