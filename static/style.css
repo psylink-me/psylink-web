@@ -272,6 +272,15 @@ main h3 {
     text-decoration: underline;
     font-weight: normal;
 }
+.abstract article {
+    border: 3pt solid #363;
+    background-color: #131;
+    padding: 0 10pt;
+    margin-bottom: 1em;
+}
+.abstract article p {
+    margin: 5pt 0;
+}
 .toc {
     font-size: 95%;
     box-shadow: 1pt 1pt 3pt #aaa;
