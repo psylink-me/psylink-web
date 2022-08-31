@@ -22,7 +22,7 @@
             </aside>
         </div>
     {{ end }}
-    {{ if or .Title .Content }}
+    {{ if (and (or .Title .Content) (eq .Paginator.PageNumber 1)) }}
     <div>
         {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
         {{ if eq .Section "blog" }}<div class="intro">{{ end }}
@@ -32,30 +32,22 @@
     {{ end }}
 
     {{ if eq .Section "blog" }}
-        {{ range .Pages | first 3 }}
+        {{ range (.Paginator 5).Pages }}
             {{ partial "shortmetadata.html" . }}
             <h1>{{ .Title }}</h1>
             {{ .Content }}
         {{ end }}
-        <p>
-            {{ with index .Pages 3 }}
-                <a href="{{ .RelPermalink }}">Read the older post: {{ .Title }}</a>
-            {{ end }}
-        </p>
-        <h1 id="toc">All entries</h1>
-        <ul>
-            {{ range .Pages }}
-            <li>
-                <div class="post-title">
-                {{ if eq .Section "blog" }}
-                    <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Date.Format "2006-01-02" }}: {{.Title }}</a>
+        {{ $currentPage := .Paginator.PageNumber }}
+        <div class="paginator">
+            Page: {{ range (.Paginator.Pagers) }}
+                {{ if (eq .PageNumber $currentPage) }}
+                    <b>{{ .PageNumber }}</b>
                 {{ else }}
-                <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
+                    <a href="{{ .URL }}">{{ .PageNumber }}</a>
                 {{ end }}
-                </div>
-            </li>
             {{ end }}
-        </ul>
+            <a href="all">all</a>
+        </div>
     {{ else }}
         {{ range .Pages }}
             <div class="showcase">

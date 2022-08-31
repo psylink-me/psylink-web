@@ -102,7 +102,9 @@ header nav .rss {
     width: 14pt;
     border-radius: 0;
 }
-
+.paginator {
+    text-align: center;
+}
 
 /*************************/
 /* FRONTPAGE */
