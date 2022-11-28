@@ -38,7 +38,7 @@ Caveats:
 
 1. PsyLink currently requires a Linux operating system, the user experience has rough edges, and there is probably some tinkering involved.
 2. The quality of an EMG signal varies with each individual, and there are many factors that can degrade the EMG signal to the point that it's unusable, such as muscle atrophy, or a certain amount of fat tissue covering the muscle (though the accelerometer/gyroscope signal is unaffected by this.)
-3. PsyLink requires a [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/hardware/nano-33-ble-sense) and a AAA-battery (e.g. 1.2V, rechargeable), which you'd have to purchase yourself.  Also, PsyLink can not charge batteries and you may need to purchase a charger as well.
+3. PsyLink requires a [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/hardware/nano-33-ble-sense) and a AAA-battery (e.g. NiMH 1.2V rechargeable, NOT lithium-based), which you'd have to purchase yourself.  Also, PsyLink can not charge batteries and you may need to purchase a charger as well.
 4. PsyLink is not a consumer product, just an educational prototype.  It is not a medical device.  There is no data on potential adverse effects on user health.  You use it at your own risk, as is, with no warranty of any kind. In no event the PsyLink authors will be liable to you for any damages.
 
 We are excited to hear from you, and to learn about what you'll do with PsyLink! ♥
