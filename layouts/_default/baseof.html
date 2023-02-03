@@ -37,7 +37,10 @@
         </header>
         {{ block "basecontent" . }}
         <main class="default">
-            {{ block "main" . }}{{ end }}
+            {{ block "preface" . }}{{ end }}
+            <div class="pad-content">
+                {{ block "main" . }}{{ end }}
+            </div>
         </main>
         {{ end }}
     </body>

@@ -1,27 +1,32 @@
-{{ define "main" }}
+{{ define "preface" }}
     {{ if .Params.toc }}
-        <div class="bigtocwrapper">
-            <aside class="toc bigtoc">
-                <span class="title">Contents:</span>
-                <ul>
-                    {{ if eq .Section "blog" }}
-                        <li><a href="/blog/all">[All posts on one page]</a></li>
+        <div id="collapsible-wrap">
+            <input id="collapsible" class="toggle" type="checkbox">
+            <label for="collapsible" class="lbl-toggle">Table of Contents</label>
+            <div class="collapsible-content">
+                <div class="collapsible-inner">
+                    <ul>
+                        {{ if eq .Section "blog" }}
+                            <li><a href="/blog/all">All posts on one page</a></li>
+                        {{ end }}
+                    {{ range .Pages }}
+                    <li>
+                        <div class="post-title">
+                        {{ if eq .Section "blog" }}
+                            {{ .Date.Format .Site.Params.dateFmt }}: <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title | truncate 30 }}</a>
+                        {{ else }}
+                            <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
+                        {{ end }}
+                        </div>
+                    </li>
                     {{ end }}
-                {{ range .Pages }}
-                <li>
-                    <div class="post-title">
-                    {{ if eq .Section "blog" }}
-                        <a href="{{ .RelPermalink }}{{ partial "index" }}">{{ .Title | truncate 30 }}</a>
-                    {{ else }}
-                    <a href="{{ .RelPermalink }}{{ partial "index" }}">{{.Title }}</a>
-                    {{ end }}
-                    </div>
-                </li>
-                {{ end }}
-                <ul>
-            </aside>
+                    <ul>
+                </div>
+            </div>
         </div>
     {{ end }}
+{{ end }}
+{{ define "main" }}
     {{ if (and (or .Title .Content) (eq .Paginator.PageNumber 1)) }}
     <div>
         {{ with .Title }}<h1>{{ . }}</h1>{{ end }}

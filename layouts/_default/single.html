@@ -1,10 +1,17 @@
-{{ define "main" }}
+{{ define "preface" }}
     {{ if .Params.toc }}
-        <aside class="toc">
-            <span class="title">Contents:</span>
-            {{ .TableOfContents }}
-        </aside>
+        <div id="collapsible-wrap">
+            <input id="collapsible" class="toggle" type="checkbox" checked="checked">
+            <label for="collapsible" class="lbl-toggle">Table of Contents</label>
+            <div class="collapsible-content">
+                <div class="collapsible-inner">
+                    {{ .TableOfContents }}
+                </div>
+            </div>
+        </div>
     {{ end }}
+{{ end }}
+{{ define "main" }}
 
     <h1>{{ .Title }}</h1>
 
