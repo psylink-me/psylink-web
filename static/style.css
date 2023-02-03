@@ -377,9 +377,9 @@ table, td, tr {
     overflow: hidden;
     background-color: #222;
     color: #fff;
-    transition: max-height .25s ease-in-out;
+    transition: max-height .25s linear;
 }
 .collapsible-wrap > input:checked + label + .collapsible-content {
     border-bottom: 1pt solid #444;
-    max-height: 200vh;
+    max-height: 500vh;  /* TODO: this makes animations a little rough. Better solution? */
 }
