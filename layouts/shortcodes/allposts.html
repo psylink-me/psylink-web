@@ -1,11 +1,5 @@
 {{ $intro := site.GetPage "blog/intro.md" }}
 {{ $pages := (where $.Site.RegularPages "Section" "eq" "blog").Reverse }}
-<h1>Table of contents</h1>
-<ul>
-<li><a href="#_intro">{{ $intro.Title }}</a>
-{{ range $pages }}
-<li><a href="#{{.Slug}}">{{ .Date.Format "2006-01-02" }}: {{ .Title }}</a></li>
-{{ end }}
 {{ with site.GetPage "_footer" }}
     <li><a href="#_footer">{{ .Title }}</a>
 {{ end }}

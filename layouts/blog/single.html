@@ -1,3 +1,34 @@
+{{ define "preface" }}
+    {{ if .Params.toc }}
+        <div id="collapsible-wrap">
+            <input id="collapsible" class="toggle" type="checkbox" checked="checked">
+            <label for="collapsible" class="lbl-toggle">Table of Contents</label>
+            <div class="collapsible-content">
+                <div class="collapsible-inner">
+                    {{ .TableOfContents }}
+                </div>
+            </div>
+        </div>
+    {{ end }}
+    {{ if .Params.toc_allposts }}
+        {{ $intro := site.GetPage "blog/intro.md" }}
+        {{ $pages := (where $.Site.RegularPages "Section" "eq" "blog").Reverse }}
+        <div id="collapsible-wrap">
+            <input id="collapsible" class="toggle" type="checkbox">
+            <label for="collapsible" class="lbl-toggle">Table of Contents</label>
+            <div class="collapsible-content">
+                <div class="collapsible-inner">
+                    <ul>
+                        <li><a href="#_intro">{{ $intro.Title }}</a>
+                        {{ range $pages }}
+                        <li>{{ .Date.Format "2006-01-02" }}: <a href="#{{.Slug}}">{{ .Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}
 {{ define "main" }}
     {{ $blogchain := (and (in .Site.Params.blogchains .Section) .Section (.Site.GetPage "section" .Section)) }}
     <h1>{{ .Title }}</h1>
