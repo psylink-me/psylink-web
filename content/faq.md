@@ -30,7 +30,7 @@ style='color:#5A85E9;'>g</span></i></b> this project by donating:
 - keks: Consulting, testing
 - knoc: Consulting, testing
 - [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
-- AntonX: Consulting, hardware design
+- [AntonX](https://www.linkedin.com/in/anton-x/): Consulting, hardware design
 - [John Shahbazian](https://github.com/jshahbazi): Consulting, testing, software, financial support
 - [ktrask](https://twitter.com/ktrask23) ([mastodon](https://chaos.social/@ktrask)): Consulting, testing
 - [Fabien Devaux](http://github.com/fdev31/): Consulting
