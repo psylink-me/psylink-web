@@ -375,10 +375,9 @@ table, td, tr {
 .collapsible-content {
     max-height: 0px;
     overflow: hidden;
-    background-color: #111;
+    background-color: #222;
+    color: #fff;
     transition: max-height .25s ease-in-out;
-    background-image: url(hex.png);
-    background-position: 20px 40px;
 }
 .collapsible-wrap > input:checked + label + .collapsible-content {
     border-bottom: 1pt solid #444;
