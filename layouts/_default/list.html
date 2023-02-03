@@ -1,8 +1,21 @@
 {{ define "preface" }}
+    {{ if .Params.preface }}
+        <div class="collapsible-wrap">
+            <input id="collapsible-preface" class="toggle" type="checkbox" checked="checked">
+            <label for="collapsible-preface" class="lbl-toggle">{{ if .Params.preface_title }}{{ .Params.preface_title }}{{ else }}Preface{{ end }}</label>
+            <div class="collapsible-content">
+                <div class="collapsible-inner pad-content preface">
+                    {{ with site.GetPage .Params.preface }}
+                        {{ with .Content }}{{ . }}{{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    {{ end }}
     {{ if .Params.toc }}
-        <div id="collapsible-wrap">
-            <input id="collapsible" class="toggle" type="checkbox">
-            <label for="collapsible" class="lbl-toggle">Table of Contents</label>
+        <div class="collapsible-wrap">
+            <input id="collapsible-toc" class="toggle" type="checkbox">
+            <label for="collapsible-toc" class="lbl-toggle">Table of Contents</label>
             <div class="collapsible-content">
                 <div class="collapsible-inner">
                     <ul>

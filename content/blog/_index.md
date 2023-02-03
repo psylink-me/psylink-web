@@ -1,7 +1,5 @@
 ---
 toc: true
+preface: abstract.md
+preface_title: Summary
 ---
-
-<div class="abstract">
-    {{% include "abstract.md" %}}
-</div>
