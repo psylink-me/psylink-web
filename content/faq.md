@@ -22,7 +22,7 @@ style='color:#5A85E9;'>g</span></i></b> this project by donating:
 - [Liberapay](https://liberapay.com/psylink/)
 - PayPal: please ask for account details
 - IBAN: please ask for account details
-- [Request additional payment methods](https://codeberg.org/psylink/psylink/issues)
+- Request additional payment methods via email or [git issue](https://codeberg.org/psylink/psylink/issues)
 
 ## Contributors
 
