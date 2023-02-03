@@ -8,6 +8,22 @@ toc: true
 - Mail: info໑psylink.me
 - Matrix Chatroom: [#psylink:matrix.org](https://matrix.to/#/#psylink:matrix.org)
 
+## Donations
+
+The main author quit his job to work full-time on this project, so naturally
+it can only go as far as his funding will take us :) If you like what
+you see here, please consider <b><i><span style='color:#C6FF29;'>s</span><span
+style='color:#BAF13E;'>u</span><span style='color:#AEE453;'>p</span><span
+style='color:#A2D669;'>p</span><span style='color:#96C97E;'>o</span><span
+style='color:#8ABB94;'>r</span><span style='color:#7EAEA9;'>t</span><span
+style='color:#72A0BE;'>i</span><span style='color:#6693D4;'>n</span><span
+style='color:#5A85E9;'>g</span></i></b> this project by donating:
+
+- [Liberapay](https://liberapay.com/psylink/)
+- PayPal: please ask for account details
+- IBAN: please ask for account details
+- [Request additional payment methods](https://codeberg.org/psylink/psylink/issues)
+
 ## Contributors
 
 - [Roman Zimbelmann](https://rzim.dev): Project leader, investor, creator/maintainer of the software, hardware, website, blog, etc.
@@ -24,22 +40,6 @@ toc: true
 - [Alex Lao](http://www.voltagedivide.com/): Consulting
 - [Hackaday.com](https://hackaday.com/2022/01/07/psylink-an-open-source-neural-interface-for-non-invasive-emg/): Spreading the word, networking
 - Thanks to all the patrons on [Liberapay](https://liberapay.com/psylink/) for financial support!
-
-## Donations
-
-The main author quit his job to work full-time on this project, so naturally
-it can only go as far as his funding will take us :) If you like what
-you see here, please consider <b><i><span style='color:#C6FF29;'>s</span><span
-style='color:#BAF13E;'>u</span><span style='color:#AEE453;'>p</span><span
-style='color:#A2D669;'>p</span><span style='color:#96C97E;'>o</span><span
-style='color:#8ABB94;'>r</span><span style='color:#7EAEA9;'>t</span><span
-style='color:#72A0BE;'>i</span><span style='color:#6693D4;'>n</span><span
-style='color:#5A85E9;'>g</span></i></b> this project by donating:
-
-- [Liberapay](https://liberapay.com/psylink/)
-- PayPal: please ask for account details
-- IBAN: please ask for account details
-- [Request additional payment methods](https://codeberg.org/psylink/psylink/issues)
 
 ## Ultimate Goals
 
