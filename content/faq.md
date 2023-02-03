@@ -37,8 +37,6 @@ style='color:#72A0BE;'>i</span><span style='color:#6693D4;'>n</span><span
 style='color:#5A85E9;'>g</span></i></b> this project by donating:
 
 - [Liberapay](https://liberapay.com/psylink/)
-- [Ether](https://en.wikipedia.org/wiki/Ethereum): 0xD87fC5fEcC32e31587F9C5481fe1a3F33eDF24Ed
-- [Dash](https://en.wikipedia.org/wiki/Dash_(cryptocurrency)): XocV8MudehfcoLvCj2xwaCDKx3EDCbeuCf
 - PayPal: please ask for account details
 - IBAN: please ask for account details
 - [Request additional payment methods](https://codeberg.org/psylink/psylink/issues)
