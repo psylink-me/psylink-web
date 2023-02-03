@@ -116,6 +116,7 @@ main.frontpage {
 }
 main.frontpage .banner {
     flex-grow: 1;
+    flex-basis: 600px;
 }
 main.frontpage .banner img {
     width: 100%;
@@ -135,7 +136,7 @@ main.frontpage .video iframe {
 }
 .punchline1 {
     font-size: 250%;
-    flex-grow: 10;
+    flex-grow: 1;
     padding-bottom: 0.6em;
 }
 .punchline1 .line {
