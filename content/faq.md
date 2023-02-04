@@ -26,7 +26,7 @@ style='color:#5A85E9;'>g</span></i></b> this project by donating:
 
 ## Contributors
 
-- [Roman Zimbelmann](https://rzim.dev): Project leader, investor, creator/maintainer of the software, hardware, website, blog, etc.
+- [Roman Zimbelmann](https://rzim.dev): Founder and maintainer of PsyLink
 - keks: Consulting, testing
 - knoc: Consulting, testing
 - [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
