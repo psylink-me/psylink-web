@@ -27,18 +27,18 @@ style='color:#5A85E9;'>g</span></i></b> this project by donating:
 ## Contributors
 
 - [Roman Zimbelmann](https://rzim.dev): Founder and maintainer of PsyLink
+- [Alex Lao](http://www.voltagedivide.com/): Consulting
+- [AntonX](https://www.linkedin.com/in/anton-x/): Consulting, hardware design
+- [Cade Brown](https://cade.site/): Testing, financial support
+- [Fabien Devaux](http://github.com/fdev31/): Consulting
+- [Hackaday.com](https://hackaday.com/2022/01/07/psylink-an-open-source-neural-interface-for-non-invasive-emg/): Spreading the word, networking
+- [John Shahbazian](https://github.com/jshahbazi): Consulting, testing, software, financial support
 - keks: Consulting, testing
 - knoc: Consulting, testing
-- [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
-- [AntonX](https://www.linkedin.com/in/anton-x/): Consulting, hardware design
-- [John Shahbazian](https://github.com/jshahbazi): Consulting, testing, software, financial support
 - [ktrask](https://twitter.com/ktrask23) ([mastodon](https://chaos.social/@ktrask)): Consulting, testing
-- [Fabien Devaux](http://github.com/fdev31/): Consulting
-- [Wojciech Siewierski](https://einval.eu): Consulting
-- [Cade Brown](https://cade.site/): Testing, financial support
+- [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
 - Ricard Collins: Consulting, financial support, testing
-- [Alex Lao](http://www.voltagedivide.com/): Consulting
-- [Hackaday.com](https://hackaday.com/2022/01/07/psylink-an-open-source-neural-interface-for-non-invasive-emg/): Spreading the word, networking
+- [Wojciech Siewierski](https://einval.eu): Consulting
 - Thanks to all the patrons on [Liberapay](https://liberapay.com/psylink/) for financial support!
 
 ## Ultimate Goals
