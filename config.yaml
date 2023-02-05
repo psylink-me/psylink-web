@@ -2,6 +2,7 @@ baseURL: "https://psylink.me/"
 languageCode: "en-us"
 title: "PsyLink"
 resourceDir: ".resources"
+publishDir: ".public"
 relativeurls: true
 taxonomies: []
 permalinks:
