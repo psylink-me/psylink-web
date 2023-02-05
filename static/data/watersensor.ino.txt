@@ -1,0 +1,75 @@
+// With a small PC speaker connected to D10 and D13 and two wires connected to
+// GND and A0, this code will make the PsyLink do a siren sound when a
+// connected body of water touches both wires.
+
+void setup() {
+  Serial.begin(115200);
+  analogReadResolution(12);
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(LEDR, OUTPUT);
+  pinMode(LEDG, OUTPUT);
+  pinMode(LEDB, OUTPUT);
+  pinMode(D10, OUTPUT);
+  pinMode(D13, OUTPUT);
+  digitalWrite(D10, LOW);
+  digitalWrite(D13, HIGH);
+  digitalWrite(LEDR, HIGH); // The LED is LOW-activated, let's turn it off.
+  digitalWrite(LEDG, HIGH); // The LED is LOW-activated, let's turn it off.
+  digitalWrite(LEDB, HIGH); // The LED is LOW-activated, let's turn it off.
+}
+
+int direction = 1;
+#define DELAY_MIN 50
+#define DELAY_MAX 300
+#define DELAY_STEP 10
+int delay_ = DELAY_MIN;
+int beeping = 0;
+int tick = 0;
+#define SENSORBUFFERLEN 10
+int sensorBuffer[SENSORBUFFERLEN];
+
+void loop() {
+    if (water_detected(tick)) {
+        if (!beeping) {
+            pinMode(D10, OUTPUT);
+            pinMode(D13, OUTPUT);
+        }
+        beeping = 1;
+        for (int i = 0; i < 50; i++) {
+            digitalWrite(D13, HIGH);
+            digitalWrite(D10, LOW);
+            delayMicroseconds(delay_);
+            digitalWrite(D13, LOW);
+            digitalWrite(D10, HIGH);
+            delayMicroseconds(delay_);
+        }
+        delay_ += DELAY_STEP * direction;
+        if (delay_ > DELAY_MAX || delay_ < DELAY_MIN) {
+            direction *= -1;
+        }
+    }
+    else {
+        if (beeping) {
+            digitalWrite(D13, LOW);
+            digitalWrite(D10, LOW);
+            pinMode(D10, INPUT);
+            pinMode(D13, INPUT);
+        }
+        beeping = 0;
+        delayMicroseconds(10000);
+    }
+    tick += 1;
+}
+
+int water_detected(int tick) {
+    int sensor = analogRead(A0);
+    const int threshold = 256;
+    sensorBuffer[tick % SENSORBUFFERLEN] = sensor;
+    Serial.println(sensor);
+    for (int i = 0; i < SENSORBUFFERLEN; i++) {
+        if (sensorBuffer[i] >= threshold) {
+            return false;
+        }
+    }
+    return true;
+}
