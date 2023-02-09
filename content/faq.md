@@ -9,6 +9,10 @@ toc: true
 - Matrix Chatroom: [#psylink:matrix.org](https://matrix.to/#/#psylink:matrix.org)
 - Mastodon: [@psylink@fosstodon.org](https://fosstodon.org/@psylink)
 
+## What is PsyLink?
+
+PsyLink is experimental hardware for reading muscle signals and using them to e.g. control the computer, recognize gestures, play video games, or simulate a keyboard.  PsyLink is open source, [sEMG](https://en.wikipedia.org/wiki/Electromyography)-based, neural-network-powered, and [can be obtained here.](/get)
+
 ## Donations
 
 The main author quit his job to work full-time on this project, so naturally
