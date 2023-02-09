@@ -7,6 +7,7 @@ toc: true
 
 - Mail: info໑psylink.me
 - Matrix Chatroom: [#psylink:matrix.org](https://matrix.to/#/#psylink:matrix.org)
+- Mastodon: [@psylink@fosstodon.org](https://fosstodon.org/@psylink)
 
 ## Donations
 
