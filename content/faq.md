@@ -75,6 +75,7 @@ psylink prototypes.  Whatever you find interesting and worth your time :)
 Good starting points are:
 
 - [The list of open issues](https://codeberg.org/psylink/psylink/issues)
+- [The list of next steps](https://codeberg.org/psylink/psylink/wiki/Next-Steps)
 - Join the [Matrix Chatroom](https://matrix.to/#/#psylink:matrix.org) and chat with the community about the project
 - Read and expand the [PsyLink Wiki](https://codeberg.org/psylink/psylink/wiki)
 
