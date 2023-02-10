@@ -12,3 +12,4 @@ install:
 	rmdir .public/tags || true
 	rsync -ruv --del .public/ psylink:/home/psylink/html/
 	hugo --cleanDestinationDir
+	git tag -f deployed_to_production
