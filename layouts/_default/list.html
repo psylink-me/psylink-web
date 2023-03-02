@@ -67,8 +67,9 @@
             <a href="all">all</a>
         </div>
     {{ else }}
-        {{ range .Pages }}
+        {{ range .Pages.ByParam "priority" }}
             <div class="showcase">
+                {{ if (gt .Params.priority 0) }}<span style="float: right; padding-top: 1em;">📌</span>{{ end }}
                 <a href="{{ .RelPermalink }}{{ partial "index" }}">
                     <h2>{{.Title}}</h2>
                     {{ with .Params.image }}

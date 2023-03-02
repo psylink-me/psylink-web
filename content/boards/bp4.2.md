@@ -8,6 +8,7 @@ prototypes: ["p9.2"]
 tested: true
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/bp4.2.kicad_pcb
 circuit: c12.1
+priority: 1
 ---
 
 Changes compared to {{% link "bp4.1" %}}:
