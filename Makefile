@@ -10,6 +10,6 @@ install:
 	hugo --cleanDestinationDir --environment production
 	rm .public/tags/index.xml .public/meta.html || true
 	rmdir .public/tags || true
-	rsync -ruv --del .public/ psylink:/home/psylink/html/
+	rsync -ruv --del --exclude=tmp .public/ psylink:/home/psylink/html/
 	hugo --cleanDestinationDir
 	git tag -f deployed_to_production
