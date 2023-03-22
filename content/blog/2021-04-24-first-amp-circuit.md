@@ -2,6 +2,7 @@
 title: "First Amplifier Circuit"
 slug: first-amp-circuit
 date: 2021-04-24
+author: Roman
 ---
 
 I had my head stuck in electronics lectures, datasheets, and a breadboard to

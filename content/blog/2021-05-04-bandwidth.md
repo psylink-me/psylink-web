@@ -2,6 +2,7 @@
 title: "Higher Bandwidth, new UI"
 slug: bandwidth
 date: 2021-05-04
+author: Roman
 ---
 
 Hah, I managed to raise the Bluetooth bandwidth from ~1kB/s to 6-7kB/s with this one magic line:

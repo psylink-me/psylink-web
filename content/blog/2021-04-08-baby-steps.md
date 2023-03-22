@@ -2,6 +2,7 @@
 title: "Baby Steps"
 slug: baby-steps
 date: 2021-04-08
+author: Roman
 ---
 
 The Arduino arrived.  I have no electrodes though.  But what are electrodes,

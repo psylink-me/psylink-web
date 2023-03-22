@@ -2,6 +2,7 @@
 title: "Sample Signals"
 slug: samplesignals
 date: 2023-03-06
+author: Roman
 ---
 
 On popular request, I have uploaded some data sets of recorded signals, along with videos of their recordings.

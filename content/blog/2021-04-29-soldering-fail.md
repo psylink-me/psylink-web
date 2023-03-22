@@ -2,6 +2,7 @@
 title: "Soldering the Processing Units"
 slug: soldering-fail
 date: 2021-04-29
+author: Roman
 ---
 
 The plan was to split the circuit into:

@@ -2,6 +2,7 @@
 title: "Multiplexers"
 slug: multiplexers
 date: 2021-04-15
+author: Roman
 ---
 
 The analog multipexers (5x DG409DJZ) and other stuff arrived! I almost bought a

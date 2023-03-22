@@ -1,6 +1,7 @@
 ---
 title: "Intro"
 _build: {list: false, render: false}
+author: Roman
 ---
 
 We don't have to drill a hole into skull to get access to your nerve signals.

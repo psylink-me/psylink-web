@@ -2,6 +2,7 @@
 title: "Gyroscope + Accelerometer"
 slug: gyroscope
 date: 2021-05-17
+author: Roman
 ---
 
 I fixed up the PsyLink UI.  It was so broken after the rewrite to Bluetooth Low

@@ -2,6 +2,7 @@
 title: "Website is Ready"
 slug: website-ready
 date: 2021-05-31
+author: Roman
 ---
 
 The website is more fleshed out now, with a nice black/green design, neurons in

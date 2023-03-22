@@ -2,6 +2,7 @@
 title: "Amplifiers"
 slug: amplifiers
 date: 2021-04-19
+author: Roman
 ---
 
 I have the feeling that before building the next prototype, I should figure out

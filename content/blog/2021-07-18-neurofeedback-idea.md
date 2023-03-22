@@ -2,6 +2,7 @@
 title: "Neurofeedback: Training in both directions"
 slug: neurofeedback-idea
 date: 2021-07-17
+author: Roman
 ---
 
 For now, the training of neural networks mostly happens on the AI side.  The

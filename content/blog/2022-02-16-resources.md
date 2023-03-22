@@ -2,6 +2,7 @@
 title: "Next Steps & Resources"
 slug: resources
 date: 2022-02-16
+author: Roman
 ---
 
 The [PsyLink Wiki](https://codeberg.org/psylink/psylink/wiki) now contains two new pages:

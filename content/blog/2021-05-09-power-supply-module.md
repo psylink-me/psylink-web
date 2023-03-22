@@ -2,6 +2,7 @@
 title: "Power Supply Module"
 slug: power
 date: 2021-05-09
+author: Roman
 ---
 
 I made an updated schematic (circuit 6) that shows more clearly how the modules

@@ -2,6 +2,7 @@
 title: "Batch Update"
 slug: batch-update
 date: 2021-11-30
+author: Roman
 ---
 
 I haven't been posting recently because I've been focusing on other areas of my

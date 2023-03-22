@@ -282,6 +282,21 @@ main h3 {
     text-decoration: underline;
     font-weight: normal;
 }
+h1.posttitle {
+    margin-bottom: 0;
+    line-height: 90%;
+}
+span.postdate {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 80%;
+    margin: -2pt;
+    color: #666;
+    text-decoration: none;
+}
+span.postdate a {
+    color: #55b !important;
+}
 .abstract article {
     border: 3pt solid #363;
     background-color: #131;

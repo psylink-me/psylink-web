@@ -2,6 +2,7 @@
 title: "Believe The Datasheet"
 slug: believe
 date: 2021-06-10
+author: Roman
 ---
 
 Today the order of {{% link "bp2" %}} arrived!

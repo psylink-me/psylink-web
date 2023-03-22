@@ -51,8 +51,8 @@
 
     {{ if eq .Section "blog" }}
         {{ range (.Paginator 5).Pages }}
+            <h1 class="posttitle">{{ .Title }}</h1>
             {{ partial "shortmetadata.html" . }}
-            <h1>{{ .Title }}</h1>
             {{ .Content }}
             <hr class="postdelimiter" />
         {{ end }}
