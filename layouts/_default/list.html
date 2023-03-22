@@ -54,7 +54,10 @@
             <h1 class="posttitle">{{ .Title }}</h1>
             {{ partial "shortmetadata.html" . }}
             {{ .Content }}
-            <hr class="postdelimiter" />
+            <div class="post_delimiter">
+                <div class="post_end"></div>
+                <div class="post_begins"></div>
+            </div>
         {{ end }}
         {{ $currentPage := .Paginator.PageNumber }}
         <div class="paginator">

@@ -23,11 +23,6 @@ hr {
     border: 0px hidden black;
     border-bottom: 1px dashed var(--header-border);
 }
-hr.postdelimiter {
-    border-bottom: 2pt solid #343;
-    border-top: 1pt solid #373;
-    margin: 0 0 64pt 0;
-}
 body {
     background: var(--body-bg);
     background-attachment: fixed;
@@ -264,7 +259,7 @@ main.default {
 }
 main.default .pad-content {
     margin: 1em 0;
-    padding: 0em 2ch 0em 2ch;
+    padding: 0em 17pt 0em 17pt;
 }
 main h1 {
     margin-top: 0;
@@ -296,6 +291,21 @@ span.postdate {
 }
 span.postdate a {
     color: #55b !important;
+}
+div.post_delimiter {
+    background: #004000;
+    margin: 0 -17pt;
+}
+div.post_end, div.post_begins {
+    background: var(--main-bg);
+    padding: 20pt 0 0 0
+}
+div.post_end {
+    border-radius: 0 0 20pt 20pt;
+    margin-bottom: 7pt;
+}
+div.post_begins {
+    border-radius: 20pt 20pt 0 0;
 }
 .abstract article {
     border: 3pt solid #363;
