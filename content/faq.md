@@ -36,6 +36,7 @@ style='color:#5A85E9;'>g</span></i></b> this project by donating:
 - [AntonX](https://www.linkedin.com/in/anton-x/): Consulting, hardware design
 - [Cade Brown](https://cade.site/): Testing, financial support
 - [Fabien Devaux](http://github.com/fdev31/): Consulting
+- [Farzam Khodajoo](https://www.linkedin.com/in/farzam-khodajoo): Consulting, hardware design
 - [Hackaday.com](https://hackaday.com/2022/01/07/psylink-an-open-source-neural-interface-for-non-invasive-emg/): Spreading the word, networking
 - [John Shahbazian](https://github.com/jshahbazi): Consulting, testing, software, financial support
 - keks: Consulting, testing
