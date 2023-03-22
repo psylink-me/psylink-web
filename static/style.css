@@ -23,6 +23,11 @@ hr {
     border: 0px hidden black;
     border-bottom: 1px dashed var(--header-border);
 }
+hr.postdelimiter {
+    border-bottom: 2pt solid #343;
+    border-top: 1pt solid #373;
+    margin: 0 0 64pt 0;
+}
 body {
     background: var(--body-bg);
     background-attachment: fixed;
