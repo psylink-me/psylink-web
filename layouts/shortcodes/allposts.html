@@ -4,14 +4,26 @@
     <li><a href="#_footer">{{ .Title }}</a>
 {{ end }}
 </ul>
+<div class="post_delimiter">
+    <div class="post_end"></div>
+    <div class="post_begins"></div>
+</div>
 <article id="_intro">
 <h1>{{ $intro.Title }}</h1>
 {{ $intro.Content }}
 </article>
+<div class="post_delimiter">
+    <div class="post_end"></div>
+    <div class="post_begins"></div>
+</div>
 {{ range $pages }}
 <article id="{{ .Slug }}">
+<h1 class="posttitle">{{ .Title }}</h1>
 {{ partial "shortmetadata.html" . }}
-<h1>{{ .Title }}</h1>
 {{ .Content }}
 </article>
+<div class="post_delimiter">
+    <div class="post_end"></div>
+    <div class="post_begins"></div>
+</div>
 {{ end }}
