@@ -31,4 +31,4 @@ The spacer screws bite into the skin and produce a better signal, but cause pain
 
 In the coming days I will update the schematics to reflect these changes.
 
-I highly recommend PsyLink users to swap their 100pF capacitors for 100nF capacitors on their electrode modules.  If you do not want to do this yourself, you will be pleased to hear that **we are offering every existing PsyLink customer an upgrade free of charge. We will cover the material and delivery cost for you.**  Simply contact us if you're interested in the upgrade.
+I highly recommend PsyLink users to swap their 100pF capacitors (C1-C8) for 100nF capacitors on their electrode modules.  If you do not want to do this yourself, you will be pleased to hear that **we are offering every existing PsyLink customer an upgrade free of charge. We will cover the material and delivery cost for you.**  Simply contact us if you're interested in the upgrade.
