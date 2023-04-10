@@ -2,4 +2,4 @@
 title: Software
 ---
 
-This list is incomplete for now.  See the blog and the source for more information on the software.
+Each software version works only with a specific set of PsyLink prototypes. See the lists below.
