@@ -7,7 +7,7 @@ date: 2021-12-12
 tested: true
 blog: power-module4
 prototypes: ["p8"]
-src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/bp4.kicad_pcb
+src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/archive/kicad/bp4.kicad_pcb
 circuit: c11
 ---
 
