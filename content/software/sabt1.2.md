@@ -4,7 +4,7 @@ slug: sabt1.2
 image: software/sabt1.png
 date: 2023-04-06
 src: "https://codeberg.org/psylink/psylink/src/branch/master/arduino/AnalogToBLE1.1/AnalogToBLE1.1.ino"
-prototypes: ["p9.3"]
+prototypes: ["p10"]
 tested: true
 ---
 
