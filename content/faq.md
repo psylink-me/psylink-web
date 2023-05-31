@@ -42,6 +42,7 @@ style='color:#5A85E9;'>g</span></i></b> this project by donating:
 - keks: Consulting, testing
 - knoc: Consulting, testing
 - [ktrask](https://twitter.com/ktrask23) ([mastodon](https://chaos.social/@ktrask)): Consulting, testing
+- [PCBWay](https://pcbway.com): Sponsored production services
 - [PerlinWarp](https://twitter.com/perlinwarp): Consulting, testing, documentation, networking, financial support
 - Ricard Collins: Consulting, financial support, testing
 - [Wojciech Siewierski](https://einval.eu): Consulting
