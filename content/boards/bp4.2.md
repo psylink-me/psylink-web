@@ -4,7 +4,7 @@ slug: bp4.2
 image: boards/bp4.2.png
 image_back: boards/bp4.2_back.png
 date: 2022-01-26
-prototypes: ["p9.2"]
+prototypes: ["p9.2", "p10"]
 tested: true
 src: https://codeberg.org/psylink/psylink/src/branch/master/schematics/power_module4.2
 circuit: c12.1
